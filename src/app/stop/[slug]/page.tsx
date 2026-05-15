@@ -57,7 +57,7 @@ export default function StopPage({ params }: { params: Promise<{ slug: string }>
   const coreIndex = coreStops.findIndex(s => s.id === slug)
   const prevStop = coreIndex > 0 ? coreStops[coreIndex - 1] : null
   const nextStop = coreIndex < coreStops.length - 1 ? coreStops[coreIndex + 1] : null
-  // Is this the I-240 crossing? (going from stop 4 → 5)
+  // Is this the section crossing? (going from Mayberry Core → The Second Life)
   const crossingI240 = prevStop?.zone === 'north' && shop.zone === 'south'
 
   function handleStamp() {
@@ -100,7 +100,7 @@ export default function StopPage({ params }: { params: Promise<{ slug: string }>
 
         {isCore && (
           <p className="font-mono text-[10px] tracking-widest text-white/50 uppercase mt-3">
-            Stop {shop.passportStop} of 10 · {shop.zone === 'north' ? 'East' : 'West'} Haywood
+            Stop {shop.passportStop} of 10 · {shop.zone === 'north' ? 'Mayberry Core' : 'The Second Life'}
           </p>
         )}
 
@@ -376,7 +376,7 @@ export default function StopPage({ params }: { params: Promise<{ slug: string }>
             if (navigator.share) {
               navigator.share({
                 title: shop.name,
-                text: `I just stamped ${shop.name} on the Haywood Road Ledger.`,
+                text: `I just stamped ${shop.name} on the Mount Airy Walkbook.`,
                 url: window.location.href,
               })
             } else {
@@ -400,7 +400,7 @@ export default function StopPage({ params }: { params: Promise<{ slug: string }>
               <div className="flex items-center gap-3 mb-4">
                 <div className="flex-1 h-px bg-[#b84c1a] opacity-40" />
                 <span className="font-mono text-[10px] text-[#b84c1a] tracking-widest px-2">
-                  You crossed I-240
+                  You crossed The Covered Bridge
                 </span>
                 <div className="flex-1 h-px bg-[#b84c1a] opacity-40" />
               </div>

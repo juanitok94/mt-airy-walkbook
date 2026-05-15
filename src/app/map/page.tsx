@@ -57,8 +57,6 @@ export default function MapPage() {
     setActiveLayers(prev => {
       const next = new Set(prev)
       if (next.has(layerId)) {
-        // Don't allow deselecting coffee (passport layer)
-        if (layerId === 'coffee') return next
         next.delete(layerId)
       } else {
         next.add(layerId)
@@ -102,7 +100,7 @@ export default function MapPage() {
       {/* LAYER FILTERS */}
       <div className="max-w-2xl mx-auto px-4 pt-5">
         <p className="text-center font-mono text-[10px] tracking-widest text-[#6b3f1e] opacity-50 uppercase mb-3">
-          Tap to filter · Coffee always on
+          Tap to filter
         </p>
         <div className="flex flex-wrap gap-2 justify-center">
           {layers.map(layer => {
@@ -169,7 +167,7 @@ export default function MapPage() {
               <div className="absolute inset-0 bg-[#b84c1a] opacity-30" />
               <div className="absolute top-2 left-1/2 -translate-x-1/2 whitespace-nowrap">
                 <span className="font-mono text-[8px] text-[#b84c1a] tracking-widest bg-[#f5edd8]/80 px-1.5 py-0.5 rounded-sm">
-                  I-240
+                  The Covered Bridge
                 </span>
               </div>
             </div>
@@ -492,7 +490,7 @@ export default function MapPage() {
                 {showDivider && (
                   <div className="flex items-center gap-3 my-2">
                     <div className="flex-1 h-px bg-[#b84c1a] opacity-30" />
-                    <span className="font-mono text-[9px] text-[#b84c1a] tracking-widest">I-240</span>
+                    <span className="font-mono text-[9px] text-[#b84c1a] tracking-widest">The Covered Bridge</span>
                     <div className="flex-1 h-px bg-[#b84c1a] opacity-30" />
                   </div>
                 )}
