@@ -1,54 +1,53 @@
 [
   {
     "id": "curious",
-    "label": "West AVL Curious",
-    "threshold": 3,
+    "label": "Curious About Main Street",
+    "threshold": 1,
     "type": "core",
     "icon": "☕",
-    "color": "#8B5E3C",
-    "description": "You've started walking the road.",
+    "color": "#8B4513",
+    "description": "You started the walk.",
     "compostela": false
   },
   {
     "id": "regular",
-    "label": "Haywood Regular",
-    "threshold": 7,
+    "label": "Regular at the Balladeer",
+    "threshold": 4,
     "type": "core",
-    "icon": "🏘",
-    "color": "#b84c1a",
-    "description": "Seven in. You're becoming a local.",
+    "icon": "♪",
+    "color": "#3F5E3A",
+    "description": "Four stops in. You know the road now.",
     "compostela": false
   },
   {
     "id": "local",
-    "label": "True Local",
+    "label": "True Mount Airy Local",
+    "threshold": 7,
+    "type": "core",
+    "icon": "🏛",
+    "color": "#B8893A",
+    "description": "Seven stops. You've earned the town.",
+    "compostela": false
+  },
+  {
+    "id": "complete",
+    "label": "You Walked the Whole Thing",
     "threshold": 10,
     "type": "core",
     "icon": "⭐",
-    "color": "#c8973a",
-    "description": "You walked all of Haywood Road. This is yours.",
+    "color": "#2A1810",
+    "description": "Snappy Lunch to Will Monday House. South to north. All ten.",
     "compostela": true
   },
   {
-    "id": "devotee",
-    "label": "Haywood Devotee",
-    "threshold": 3,
-    "type": "bonus",
-    "icon": "🗺",
-    "color": "#1A3A6A",
-    "description": "You found the hidden ones too. Not everyone does.",
-    "compostela": false,
-    "note": "Unlocked by collecting all bonus stamps — OWL, Flora/Forage, Firestorm, Mocha Box"
-  },
-  {
-    "id": "hygge",
-    "label": "Hygge Five",
+    "id": "songbook",
+    "label": "The Songbook Five",
     "threshold": 5,
     "type": "special",
     "icon": "🕯",
-    "color": "#5a7a4a",
-    "description": "The five warmest rooms on Haywood Road. You found all of them.",
+    "color": "#5C4033",
+    "description": "Five places where Mount Airy's story lives in the walls. You found all of them.",
     "compostela": false,
-    "note": "Unlocked by stamping all five hygge:true shops — Rowan, Bad Manners, Odd's, OWL, Forage at Flora"
+    "note": "Unlocked by stamping all five Songbook stops — Snappy Lunch, Floyd's, Thirsty Souls, The Balladeer, Will Monday House"
   }
 ]

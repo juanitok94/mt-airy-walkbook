@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx tsc *)",
+      "Bash(node_modules\\\\.bin\\\\tsc *)",
+      "Read(//mnt/c/**)",
+      "Bash(node_modules/.bin/tsc --noEmit)",
+      "WebFetch(domain:localhost)",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"http://localhost:3000\" -UseBasicParsing -TimeoutSec 10; Write-Host \"HTTP $\\($r.StatusCode\\)\"; $r.Content | Select-String -Pattern \"Mount Airy|Walkbook|Mayberry Core|Second Life|Songbook|Snappy|Balladeer|Error\" } catch { Write-Host \"Error: $_\" })",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"http://localhost:3000/stop/will-monday-house\" -UseBasicParsing -TimeoutSec 10; Write-Host \"HTTP $\\($r.StatusCode\\)\"; $r.Content | Select-String -Pattern \"Will Monday|sidewalk|1023|Error\" } catch { Write-Host \"Error: $_\" })",
+      "PowerShell($content = Get-Content \"C:\\\\Users\\\\john kean\\\\.claude\\\\projects\\\\C--mt-airy-walkbook\\\\faba054d-1bb4-489c-a221-ccbc71f56742\\\\tool-results\\\\bf0u24rfa.txt\" -Raw; [regex]::Matches\\($content, '\\(Mount Airy|Walkbook|Mayberry Core|Second Life|Songbook Five|Snappy|Balladeer|West Asheville|Haywood Road\\)'\\) | Select-Object -ExpandProperty Value | Sort-Object -Unique)",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"http://localhost:3000/passport\" -UseBasicParsing -TimeoutSec 10; Write-Host \"HTTP $\\($r.StatusCode\\)\"; [regex]::Matches\\($r.Content, '\\(Mount Airy|Haywood|West Asheville|Balladeer|Snappy|Will Monday|Regular at|Curious About|True Mount|You Walked\\)'\\) | Select-Object -ExpandProperty Value | Sort-Object -Unique } catch { Write-Host \"Error: $_\" })",
+      "PowerShell(try { $r = Invoke-WebRequest -Uri \"http://localhost:3000/stop/balladeer-hotel\" -UseBasicParsing -TimeoutSec 10; Write-Host \"HTTP $\\($r.StatusCode\\)\"; [regex]::Matches\\($r.Content, \"\\(Spencer.s Mill|Mill That Became|Doc Watson|vinyl library|Mount Airy Walkbook|West Asheville|Haywood Road\\)\"\\) | Select-Object -ExpandProperty Value | Sort-Object -Unique } catch { Write-Host \"Error: $_\" })"
+    ]
+  }
+}

@@ -2,82 +2,73 @@
   {
     "id": "coffee",
     "label": "Coffee",
-    "color": "#8B5E3C",
-    "bg": "#F5EDD8",
+    "color": "#4A6741",
+    "bg": "#EAF3E6",
     "icon": "☕",
     "passportLayer": true,
-    "description": "The 10 core passport stops plus bonus hidden stamps"
+    "description": "Coffee shops and espresso bars on the walk"
   },
   {
-    "id": "bakery",
-    "label": "Bakery",
-    "color": "#c8973a",
-    "bg": "#FDF3DC",
-    "icon": "🥐",
+    "id": "restaurants",
+    "label": "Restaurants",
+    "color": "#8B4513",
+    "bg": "#F5EDE6",
+    "icon": "🍽",
     "passportLayer": false,
-    "description": "Bakeries with espresso bars — their own thing on Haywood"
+    "description": "Diners, cafes, and eateries along N Main"
   },
   {
     "id": "bars",
     "label": "Bars & Brew",
-    "color": "#2A6090",
-    "bg": "#E6F1FB",
+    "color": "#8B3A2E",
+    "bg": "#F5E8E6",
     "icon": "🍺",
     "passportLayer": false,
-    "description": "Breweries, cocktail bars, wine bars, bottle shops"
+    "description": "Craft breweries and bars"
   },
   {
-    "id": "food",
-    "label": "Food",
-    "color": "#2A7A4A",
-    "bg": "#EAF3DE",
-    "icon": "🍽",
+    "id": "shops",
+    "label": "Shops",
+    "color": "#B8893A",
+    "bg": "#F5F0E6",
+    "icon": "🛍",
     "passportLayer": false,
-    "description": "Restaurants and eateries"
+    "description": "Independent retail shops on N Main"
   },
   {
-    "id": "tattoo",
-    "label": "Tattoo",
-    "color": "#7A2A7A",
-    "bg": "#F5E6F5",
-    "icon": "🖋",
+    "id": "attractions",
+    "label": "Attractions",
+    "color": "#2F4F4F",
+    "bg": "#E6EEEE",
+    "icon": "★",
     "passportLayer": false,
-    "description": "Tattoo studios — West AVL has an extraordinary concentration"
+    "description": "Museums, barbershops, and Mayberry landmarks"
   },
   {
-    "id": "cannabis",
-    "label": "Cannabis",
-    "color": "#3A7A3A",
-    "bg": "#E6F3E6",
-    "icon": "🌿",
+    "id": "lodging",
+    "label": "Lodging",
+    "color": "#3F5E3A",
+    "bg": "#EAF0E9",
+    "icon": "🏨",
     "passportLayer": false,
-    "description": "Hemp, CBD, and cannabinoid shops"
+    "description": "Hotels and historic accommodations"
   },
   {
-    "id": "clothing",
-    "label": "Clothing",
-    "color": "#C04A1A",
-    "bg": "#FAECE7",
-    "icon": "👗",
+    "id": "historic",
+    "label": "Historic",
+    "color": "#B8893A",
+    "bg": "#F5F0E6",
+    "icon": "🏛",
     "passportLayer": false,
-    "description": "Vintage, consignment, and independent clothing boutiques"
+    "description": "Historic buildings and residential landmarks"
   },
   {
-    "id": "books",
-    "label": "Books",
-    "color": "#1A3A6A",
-    "bg": "#E6EDF8",
-    "icon": "📖",
+    "id": "music",
+    "label": "Music",
+    "color": "#5C4033",
+    "bg": "#EEE8E6",
+    "icon": "♪",
     "passportLayer": false,
-    "description": "Bookstores — Haywood has three, each completely different"
-  },
-  {
-    "id": "plants",
-    "label": "Plants",
-    "color": "#2a6b2a",
-    "bg": "#E8F5E8",
-    "icon": "🌱",
-    "passportLayer": false,
-    "description": "Plant shops and botanical spaces"
+    "description": "Venues and spaces connected to Mount Airy's music heritage"
   }
 ]

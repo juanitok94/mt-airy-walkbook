@@ -1,2762 +1,412 @@
 [
   {
-    "id": "cooperative-coffee-roasters",
-    "name": "Cooperative Coffee Roasters",
-    "address": "210 Haywood Rd",
-    "city": "Asheville",
+    "id": "snappy-lunch",
+    "name": "Snappy Lunch",
+    "address": "125 N Main St",
+    "city": "Mount Airy",
     "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5743069,
-      35.5794624
-    ],
-    "layers": [
-      "coffee"
-    ],
+    "zip": "27030",
+    "coordinates": [-80.6074, 36.4988],
+    "layers": ["restaurants"],
     "zone": "north",
-    "rating": 4.9,
-    "reviewCount": 97,
-    "hours": {
-      "mon": "8AM\u20132PM",
-      "tue": "8AM\u20132PM",
-      "wed": "8AM\u20132PM",
-      "thu": "8AM\u20132PM",
-      "fri": "8AM\u20132PM",
-      "sat": "8AM\u20132PM",
-      "sun": "8AM\u20132PM",
-      "note": "Roastery hours \u2014 early close daily"
-    },
     "passportStop": 1,
     "passportType": "core",
-    "streetSide": "north",
-    "selloColor": "#1a5c2a",
-    "selloPersonality": "clean roastery seal, precise and proud",
-    "hygge": false,
-    "stamp": {
-      "welcomeLine": "You found Cooperative \u2615",
-      "subLine": "Where Haywood Road begins \u2014 and where the beans are roasted."
-    },
-    "story": {
-      "headline": "Roastery first. Coffee shop second. Community always.",
-      "body": "Cooperative roasts their own beans on site \u2014 you can smell it from the sidewalk on a good day. The baristas know regulars by name and by drink. The matcha latte with a peach-star anise pop tart is peak West AVL.",
-      "insiderTip": "Ask for the Levity roast if you want something bright. Gravity if you want depth. They'll know what you mean.",
-      "parkingNote": "Small lot on site. Side streets also fine."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [
-      "owl-bakery",
-      "battlecat-coffee-bar"
-    ],
-    "multiLayer": false,
-    "instagram": "cooperativecoffeeroasters",
-    "website": "cooperativecoffeeroasters.com",
-    "placeId": "ChIJL60p-ZuLWYgRYoApnJf1b6E",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "short-street-cakes",
-    "name": "Short Street Cakes",
-    "address": "225 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.574724,
-      35.579227
-    ],
-    "layers": [
-      "bakery"
-    ],
-    "zone": "north",
-    "rating": 4.2,
-    "reviewCount": 279,
-    "hours": {
-      "mon": "closed",
-      "tue": "8AM\u20135PM",
-      "wed": "8AM\u20135PM",
-      "thu": "8AM\u20135PM",
-      "fri": "8AM\u20135PM",
-      "sat": "8AM\u20135PM",
-      "sun": "10AM\u20133PM",
-      "note": "Custom cakes and cupcakes. Vegan options available."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#c8973a",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "Custom cakes for West AVL occasions.",
-      "body": "Short Street has been making cakes for West Asheville weddings, birthdays, and gatherings for years. Vegan options that don't taste like compromise. The lavender cake is the standout.",
-      "insiderTip": "Order ahead for custom cakes. Walk-in cupcakes and slices are available daily.",
-      "parkingNote": "Street parking."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "shortstreetcakes",
-    "website": null,
-    "placeId": "ChIJQe6kRLiMWYgR4rOctLgqJ14",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "archetype-brewing",
-    "name": "Archetype Brewing",
-    "address": "265 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.575074,
-      35.578181
-    ],
-    "layers": [
-      "bars"
-    ],
-    "zone": "north",
-    "rating": 4.7,
-    "reviewCount": 442,
-    "hours": {
-      "mon": "4PM\u201310PM",
-      "tue": "4PM\u201310PM",
-      "wed": "4PM\u201310PM",
-      "thu": "4PM\u201310PM",
-      "fri": "2PM\u201311PM",
-      "sat": "12PM\u201311PM",
-      "sun": "12PM\u20139PM",
-      "note": "Rooftop deck. Live music including Brazilian Roda nights."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#2A6090",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "Rooftop brewery with a plant-filled taproom.",
-      "body": "Archetype has the best rooftop on Haywood Road \u2014 plants everywhere, good beer, food trucks rotating through. MarioKart64 available. Brazilian Roda music nights are a West AVL institution.",
-      "insiderTip": "The rooftop fills up fast on warm weekends. Come early or come on a weeknight.",
-      "parkingNote": "Large lot \u2014 one of the easier parking situations on the north end."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "archetypebrewing",
-    "website": null,
-    "placeId": "ChIJE0uifLiMWYgRVfzISr9OUOU",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "smokey-bear-hemp",
-    "name": "Smokey Bear Hemp Co.",
-    "address": "278 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.575,
-      35.578
-    ],
-    "layers": [
-      "cannabis"
-    ],
-    "zone": "north",
-    "rating": 4.5,
-    "reviewCount": 40,
-    "hours": {
-      "mon": "daily",
-      "tue": "daily",
-      "wed": "daily \u2014 live music 7PM",
-      "thu": "daily",
-      "fri": "daily",
-      "sat": "daily",
-      "sun": "daily",
-      "note": "Wednesday live music nights 7PM. Canni cocktails. Coffee lounge inside."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#3A7A3A",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "Hemp, coffee lounge, and Wednesday live music nights.",
-      "body": "Smokey Bear brings a full scene \u2014 20+ organic strains, a coffee and beverage lounge with unique creations, Wednesday live music starting at 7PM, open mic Thursdays. More of a community hub than a retail shop.",
-      "insiderTip": "Wednesday night live music is genuinely good. The Canni Cocktails are the house specialty.",
-      "parkingNote": "Street parking."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": null,
-    "website": "smokeybearhempco.com",
-    "placeId": null,
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "gan-shan-west",
-    "name": "Gan Shan West",
-    "address": "285 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5752579,
-      35.5778243
-    ],
-    "layers": [
-      "food"
-    ],
-    "zone": "north",
-    "rating": 4.5,
-    "reviewCount": 662,
-    "hours": {
-      "mon": "closed",
-      "tue": "4PM\u20139PM",
-      "wed": "4PM\u20139PM",
-      "thu": "4PM\u20139PM",
-      "fri": "4PM\u20139PM",
-      "sat": "4PM\u20139PM",
-      "sun": "4PM\u20139PM",
-      "note": "Dinner only. Wednesday dumpling specials. Half-off sake Sundays."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#2A7A4A",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "James Beard-adjacent Asian fusion. The mapo tofu is the reason.",
-      "body": "Gan Shan West is the kind of restaurant that makes West Asheville feel like a real city. The mapo tofu has its own following. The Wednesday dumpling specials fill the room.",
-      "insiderTip": "Half-off sake Sundays. The house fried rice is underrated. Order it.",
-      "parkingNote": "Street parking."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "ganshanwest",
-    "website": null,
-    "placeId": "ChIJRcpcfriMWYgRyiNiKgjv0NM",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "heron-mark-tattoo",
-    "name": "Heron Mark Tattoo",
-    "address": "290 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5753,
-      35.5779
-    ],
-    "layers": [
-      "tattoo"
-    ],
-    "zone": "north",
-    "rating": 4.9,
-    "reviewCount": 120,
-    "hours": {
-      "mon": "by appointment",
-      "tue": "by appointment",
-      "wed": "by appointment",
-      "thu": "by appointment",
-      "fri": "by appointment",
-      "sat": "by appointment",
-      "sun": "by appointment",
-      "note": "Appointment recommended. Gallery shows and events hosted here."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#7A2A7A",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "Gallery, tattoo studio, community space. Donates 1% of profits locally.",
-      "body": "Heron Mark is more than a tattoo shop \u2014 it's a creative hub that hosts gallery shows and charity events. Seven experienced artists. The most intentional shop on the strip.",
-      "insiderTip": "Check Instagram for flash day announcements and gallery openings. Worth visiting even if you're not getting tattooed.",
-      "parkingNote": "Street parking."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "heronmarktattoo",
-    "website": "heronmarktattoo.com",
-    "placeId": null,
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "owl-bakery",
-    "name": "OWL Bakery",
-    "address": "295 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5753444,
-      35.5778727
-    ],
-    "layers": [
-      "coffee",
-      "bakery"
-    ],
-    "zone": "north",
-    "rating": 4.6,
-    "reviewCount": 637,
-    "hours": {
-      "mon": "closed",
-      "tue": "closed",
-      "wed": "8AM\u20132PM",
-      "thu": "8AM\u20132PM",
-      "fri": "8AM\u20132PM",
-      "sat": "8AM\u20132PM",
-      "sun": "8AM\u20132PM",
-      "note": "Wed\u2013Sun only. Sells out early on weekends."
-    },
-    "passportStop": null,
-    "passportType": "bonus",
-    "passportBonusNumber": 1,
-    "selloColor": "#8a6520",
-    "selloPersonality": "wheat stalk impression, hand-pressed warmth",
+    "streetSide": "east",
+    "selloColor": "#8B4513",
     "hygge": true,
-    "hyggeFactor": {
-      "linger": true,
-      "naturalLight": true,
-      "ownerPresent": true,
-      "outdoorConnection": true,
-      "hiddenArrival": false
-    },
     "stamp": {
-      "welcomeLine": "You found OWL Bakery \ud83e\udd50",
-      "subLine": "The back patio is the secret. Find it."
+      "welcomeLine": "Stop 1. The pork chop is the point.",
+      "subLine": "Snappy Lunch has been the same since 1943. That is the entire review."
     },
     "story": {
-      "headline": "Kiki's Delivery Service, but make it West AVL.",
-      "body": "OWL is what you picture when someone says 'small local bakery' \u2014 laminated pastries, cardamom buns that sell out before 10am, espresso that's serious without being precious. The back patio is its own reward.",
-      "insiderTip": "The cardamom bun is the move. It's a cinnamon roll and a croissant had a very good idea together. Get there by 9am on weekends or make peace with the almond croissant instead.",
-      "parkingNote": "Street parking on Haywood. Usually fine."
+      "headline": "The Pork Chop Since 1943",
+      "body": "Snappy Lunch opened when the war was still on. The pork chop sandwich — battered pork, mustard, cole slaw, chili, onion — hasn't changed since. Charles Dowell served it for decades. The Styrofoam cup is still Styrofoam. The sweet tea is still sweet. This is not nostalgia. This is just what it is.",
+      "insiderTip": "Get there before 10:30 or the pork chop runs out. It runs out. Every day. Ask anyone."
     },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
+    "hours": {
+      "mon": "5:45AM–1:45PM",
+      "tue": "5:45AM–1:45PM",
+      "wed": "5:45AM–1:45PM",
+      "thu": "5:45AM–1:45PM",
+      "fri": "5:45AM–1:45PM",
+      "sat": "5:45AM–1:15PM",
+      "sun": "closed",
+      "note": "First come, first served. The pork chop runs out early."
     },
-    "nearbyPassportStops": [
-      "cooperative-coffee-roasters",
-      "battlecat-coffee-bar"
-    ],
-    "multiLayer": true,
-    "instagram": "owlbakeryavl",
+    "instagram": null,
     "website": null,
-    "placeId": "ChIJlaEEfriMWYgRJxjPoqPIMK8",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
+    "placeId": null,
+    "photos": [],
+    "_todo": "Placeholder — verify hours, confirm pork chop recipe details, add instagram/website if available"
   },
   {
-    "id": "battlecat-coffee-bar",
-    "name": "BattleCat Coffee Bar",
-    "address": "373 Haywood Rd",
-    "city": "Asheville",
+    "id": "floyds-barber",
+    "name": "Floyd's City Barber Shop",
+    "address": "129 N Main St",
+    "city": "Mount Airy",
     "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5786654,
-      35.5780705
-    ],
-    "layers": [
-      "coffee"
-    ],
+    "zip": "27030",
+    "coordinates": [-80.6073, 36.4991],
+    "layers": ["attractions"],
     "zone": "north",
-    "rating": 4.6,
-    "reviewCount": 774,
-    "hours": {
-      "mon": "7AM\u20136PM",
-      "tue": "7AM\u20136PM",
-      "wed": "7AM\u20136PM",
-      "thu": "7AM\u20136PM",
-      "fri": "7AM\u20136PM",
-      "sat": "7AM\u20136PM",
-      "sun": "7AM\u20136PM",
-      "note": "Opens early \u2014 good first stop of the day"
-    },
     "passportStop": 2,
     "passportType": "core",
-    "streetSide": "south",
-    "selloColor": "#8b1a1a",
-    "selloPersonality": "bold ink-worn stamp, slightly crooked, like an old bar stamp",
-    "hygge": false,
+    "streetSide": "east",
+    "selloColor": "#2F4F4F",
+    "hygge": true,
     "stamp": {
-      "welcomeLine": "You found BattleCat \u2615",
-      "subLine": "A West Asheville original. Been on this corner long enough to matter."
+      "welcomeLine": "The pole still turns.",
+      "subLine": "Floyd's has been cutting hair at 129 N Main since the 1930s. The real one."
     },
     "story": {
-      "headline": "The living room of West AVL.",
-      "body": "BattleCat has been holding down this corner long enough to become part of the neighborhood's memory. Over 700 reviews and a fiercely loyal crowd. The art on the walls is for sale \u2014 all local artists. The kolaches are dangerously good.",
-      "insiderTip": "The jalape\u00f1o kolache disappears by 9am on weekends. Arrive early or make peace with the ham. Both are good. The jalape\u00f1o is better.",
-      "parkingNote": "Side streets only after 8:30am. Haywood fills up fast."
+      "headline": "The Barbershop the Show Was Built On",
+      "body": "Russell Hiatt cut hair here for decades. The Andy Griffith Show needed a barbershop character and used him as the model — the real Floyd. Today Russell Hiatt Jr. cuts hair at the same address. The barber pole still turns. The chairs are original. This is a working barbershop, not a museum — which is exactly the point.",
+      "insiderTip": "Walk in, get a haircut, tip well. The conversation is included."
     },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "Tell your barista you're a Haywood Hopper",
-      "reward": "They'll know what to do"
-    },
-    "nearbyPassportStops": [
-      "flora-forage",
-      "asheville-kava-coffee"
-    ],
-    "multiLayer": false,
-    "instagram": "battlecatcoffeebar",
-    "website": null,
-    "placeId": "ChIJWXE9V7-MWYgR7Fo4b8l10Z8",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "cellarest-beer-project",
-    "name": "Cellarest Beer Project",
-    "address": "395 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5794685,
-      35.5780646
-    ],
-    "layers": [
-      "bars"
-    ],
-    "zone": "north",
-    "rating": 4.8,
-    "reviewCount": 157,
     "hours": {
-      "mon": "3PM\u20139PM",
-      "tue": "3PM\u20139PM",
-      "wed": "3PM\u20139PM",
-      "thu": "3PM\u20139PM",
-      "fri": "12PM\u201310PM",
-      "sat": "12PM\u201310PM",
-      "sun": "12PM\u20139PM",
-      "note": "Cassia Thai food truck Fri\u2013Sun. Collaborates with Diatribe and The Whale."
+      "mon": "closed",
+      "tue": "7AM–5PM",
+      "wed": "7AM–5PM",
+      "thu": "7AM–5PM",
+      "fri": "7AM–5PM",
+      "sat": "7AM–3PM",
+      "sun": "closed",
+      "note": "Walk-in only. No appointments."
     },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#2A6090",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "Funky farmhouse ales in a compact taproom. Thai food on weekends.",
-      "body": "Cellarest makes some of the most interesting beer on Haywood Road \u2014 European farmhouse styles, creative sours, thoughtful lagers. The outdoor area is perfect in good weather. Cassia Thai food truck runs Friday through Sunday and pairs perfectly.",
-      "insiderTip": "The mole stout when it's available. The Thai food truck Firecrackers \u2014 shrimp or sweet potato \u2014 with a gose.",
-      "parkingNote": "Street parking."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "cellarestbeer",
-    "website": null,
-    "placeId": "ChIJCYBveFiNWYgRKAIwX2ljjrc",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "walk",
-    "name": "W.A.L.K.",
-    "address": "401 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.579792,
-      35.578116
-    ],
-    "layers": [
-      "bars",
-      "food"
-    ],
-    "zone": "north",
-    "rating": 4.5,
-    "reviewCount": 1204,
-    "hours": {
-      "mon": "11:30AM\u201311PM",
-      "tue": "11:30AM\u201311PM",
-      "wed": "11:30AM\u201311PM",
-      "thu": "11:30AM\u201311PM",
-      "fri": "11:30AM\u201311PM",
-      "sat": "11AM\u201311PM",
-      "sun": "11AM\u201311PM",
-      "note": "Lunch through late night. Solid neighborhood bar."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#2A6090",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "The reliable neighborhood bar. Good food, great staff.",
-      "body": "W.A.L.K. does what a good neighborhood bar should do \u2014 solid food, fair prices, staff who make you feel welcome. The BLT and the chicken quesadilla are both reliable. The windows and doors open on good days.",
-      "insiderTip": "The avocado melt can run salty \u2014 ask for sauce on the side. The lime pepper fries are good.",
-      "parkingNote": "Street parking. Can be tight midday."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": true,
     "instagram": null,
     "website": null,
-    "placeId": "ChIJ85TCY7-MWYgRrmSmhLbKJeM",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
+    "placeId": null,
+    "photos": [],
+    "_todo": "Placeholder — verify hours, confirm Russell Hiatt Jr. is current barber, add contact info if available"
   },
   {
-    "id": "harvest-records",
-    "name": "Harvest Records",
-    "address": "415 Haywood Rd",
-    "city": "Asheville",
+    "id": "opies-candy",
+    "name": "Opie's Candy Store",
+    "address": "135 N Main St",
+    "city": "Mount Airy",
     "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5804974,
-      35.5781831
-    ],
-    "layers": [
-      "books"
-    ],
+    "zip": "27030",
+    "coordinates": [-80.6073, 36.4994],
+    "layers": ["shops"],
     "zone": "north",
-    "rating": 4.8,
-    "reviewCount": 648,
-    "hours": {
-      "mon": "11AM\u20136PM",
-      "tue": "11AM\u20136PM",
-      "wed": "11AM\u20136PM",
-      "thu": "11AM\u20136PM",
-      "fri": "11AM\u20136PM",
-      "sat": "11AM\u20136PM",
-      "sun": "11AM\u20136PM",
-      "note": "In-store turntables with headphones. Record cleaning room in back."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#1A3A6A",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "The anchor independent record store. In the Buckner Building since 2004.",
-      "body": "Harvest is one of the best record stores in the South \u2014 new and used across all genres, in-store turntables with headphones, a record cleaning room that means the vinyl they sell is clean. The online spreadsheet of new arrivals is a service to humanity.",
-      "insiderTip": "The staff actually knows the inventory. Ask what came in this week. They'll have a genuine answer and probably play it for you.",
-      "parkingNote": "Street parking."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "harvestrecordsavl",
-    "website": null,
-    "placeId": "ChIJx_3IdsCMWYgROuVNyS_RY4k",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "flora-forage",
-    "name": "Flora & Forage",
-    "address": "428 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.581047,
-      35.57768
-    ],
-    "layers": [
-      "coffee",
-      "bars"
-    ],
-    "zone": "north",
-    "rating": 4.7,
-    "reviewCount": 271,
-    "hours": {
-      "mon": "8AM\u20134PM",
-      "tue": "closed",
-      "wed": "8AM\u20136PM",
-      "thu": "8AM\u20136PM",
-      "fri": "8AM\u20136PM",
-      "sat": "8AM\u20136PM",
-      "sun": "9AM\u20134PM",
-      "note": "Forage caf\u00e9 is inside and behind Flora floral shop"
-    },
     "passportStop": 3,
     "passportType": "core",
-    "streetSide": "north",
-    "passportBonusNumber": 2,
-    "selloColor": "#2a6b2a",
-    "selloPersonality": "botanical leaf pressed in ink, organic edges",
-    "hygge": true,
-    "hyggeFactor": {
-      "linger": true,
-      "naturalLight": true,
-      "ownerPresent": true,
-      "outdoorConnection": true,
-      "hiddenArrival": true
-    },
-    "stamp": {
-      "welcomeLine": "You found Forage at Flora \ud83c\udf3f",
-      "subLine": "Through the flower shop. Into the secret garden."
-    },
-    "story": {
-      "headline": "Coffee among flowers. Fire pit out back. Records on the shelf.",
-      "body": "Walk through the floral boutique \u2014 past the living walls and the wedding arrangements \u2014 and out the back into something that feels genuinely discovered. Picnic tables, a fire pit, artisan coffee and tea, beer and wine. Sunshine Sammies and Buggy Pops if you're lucky. This is the most hygge room on Haywood Road.",
-      "insiderTip": "The Tulsi Rose tea is quietly extraordinary. Don't overlook it for the coffee. Come Thursday or Friday evening when they're open until 8pm \u2014 it's a different place after 5.",
-      "parkingNote": "Street parking. Shares block with Bagatelle Books next door."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [
-      "battlecat-coffee-bar",
-      "asheville-kava-coffee"
-    ],
-    "multiLayer": true,
-    "instagram": "floraasheville",
-    "website": "florabotanicalliving.com",
-    "placeId": "ChIJv9G_fsCMWYgR0Mg_UafKqf0",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "bagatelle-books",
-    "name": "Bagatelle Books",
-    "address": "428 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5808,
-      35.5777
-    ],
-    "layers": [
-      "books"
-    ],
-    "zone": "north",
-    "rating": 4.8,
-    "reviewCount": 45,
-    "hours": {
-      "mon": "11AM\u20136PM",
-      "tue": "11AM\u20136PM",
-      "wed": "11AM\u20136PM",
-      "thu": "11AM\u20136PM",
-      "fri": "11AM\u20136PM",
-      "sat": "11AM\u20136PM",
-      "sun": "11AM\u20135PM",
-      "note": "Supplies all books to Character Study bar down the street."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#1A3A6A",
-    "selloPersonality": null,
+    "streetSide": "east",
+    "selloColor": "#B8893A",
     "hygge": false,
-    "stamp": null,
+    "stamp": {
+      "welcomeLine": "Three cents for a root beer barrel.",
+      "subLine": "Old-fashioned candy doesn't get old."
+    },
     "story": {
-      "headline": "Used and rare books. The source for Character Study's shelves.",
-      "body": "Bagatelle curates and supplies all the books sold at Character Study cocktail bar down the road \u2014 a partnership that says everything about how Haywood Road businesses think about each other. Used, rare, and thoughtfully selected.",
-      "insiderTip": "Check the online catalogue for rare titles. In-store selection changes regularly.",
-      "parkingNote": "Street parking. Next to Flora & Forage."
+      "headline": "Named for Opie. Runs Like a General Store.",
+      "body": "The candy cases have been here since the shop opened. Ribbon candy, licorice, root beer barrels — the kind you'd find behind the counter in 1960. Named for Opie Taylor, Andy's boy on the show. The Mayberry shelf is in the back. The peanut butter fudge is made in-house.",
+      "insiderTip": "The peanut butter fudge is made on-site. Get a half-pound."
     },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
+    "hours": {
+      "mon": "10AM–5PM",
+      "tue": "10AM–5PM",
+      "wed": "10AM–5PM",
+      "thu": "10AM–5PM",
+      "fri": "10AM–5PM",
+      "sat": "10AM–5PM",
+      "sun": "11AM–4PM",
+      "note": "Hours may vary seasonally."
     },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "bagatellebooks",
-    "website": "bagatellebooks.com",
+    "instagram": null,
+    "website": null,
     "placeId": null,
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
+    "photos": [],
+    "_todo": "Placeholder — verify hours, confirm fudge is still made in-house, add instagram/website"
   },
   {
-    "id": "early-girl-eatery",
-    "name": "Early Girl Eatery",
-    "address": "444 Haywood Rd",
-    "city": "Asheville",
+    "id": "pages-books",
+    "name": "Pages Books & Coffee",
+    "address": "192 N Main St",
+    "city": "Mount Airy",
     "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5814246,
-      35.5777092
-    ],
-    "layers": [
-      "food"
-    ],
+    "zip": "27030",
+    "coordinates": [-80.6071, 36.5007],
+    "layers": ["coffee", "shops"],
     "zone": "north",
-    "rating": 4.3,
-    "reviewCount": 1495,
-    "hours": {
-      "mon": "8AM\u20133PM",
-      "tue": "8AM\u20133PM",
-      "wed": "8AM\u20133PM",
-      "thu": "8AM\u20133PM",
-      "fri": "8AM\u20133PM",
-      "sat": "8AM\u20134PM",
-      "sun": "8AM\u20134PM",
-      "note": "Breakfast and brunch only. Most reviewed restaurant on the strip."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#2A7A4A",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "West AVL's most reliable Southern breakfast. The yam scram.",
-      "body": "Early Girl has fed West Asheville for years. The yam scram is the signature. The jam bar is locally sourced. The patio catches morning light.",
-      "insiderTip": "The yam scram. That's the order. Also buy a jar of the jam to take home \u2014 you'll use it.",
-      "parkingNote": "Lot next to the Mardis Building."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "earlygirleatery",
-    "website": null,
-    "placeId": "ChIJq6q6cMCMWYgRSJTvkVO76M4",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "emote",
-    "name": "EMOTE",
-    "address": "444 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5815094,
-      35.5775899
-    ],
-    "layers": [
-      "clothing"
-    ],
-    "zone": "north",
-    "rating": 5.0,
-    "reviewCount": 60,
-    "hours": {
-      "mon": "closed",
-      "tue": "closed",
-      "wed": "12PM\u20135PM",
-      "thu": "12PM\u20135PM",
-      "fri": "12PM\u20135PM",
-      "sat": "12PM\u20136PM",
-      "sun": "12PM\u20136PM",
-      "note": "Queer-owned. Free community pantry. Name-your-price rack."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#C04A1A",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "Queer-owned vintage, handmade art, and a free community pantry.",
-      "body": "EMOTE has a perfect 5-star rating and earns it through radical inclusivity \u2014 name-your-price rack, free pantry for those in need, inclusive sizing, queer art. The owner will write you a guide to the neighborhood if you ask.",
-      "insiderTip": "Ask the owner for their neighborhood recommendations. They'll write it down for you. That list is worth more than any app.",
-      "parkingNote": "Street parking."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "emoteavl",
-    "website": null,
-    "placeId": "ChIJ4X8HMd6NWYgRd1si60PNL6o",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "asheville-kava-coffee",
-    "name": "Asheville Kava X Coffee",
-    "address": "487 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5833046,
-      35.5785719
-    ],
-    "layers": [
-      "coffee",
-      "cannabis"
-    ],
-    "zone": "north",
-    "rating": 4.8,
-    "reviewCount": 68,
-    "hours": {
-      "mon": "open 24 hours",
-      "tue": "open 24 hours",
-      "wed": "open 24 hours",
-      "thu": "open 24 hours",
-      "fri": "open 24 hours",
-      "sat": "open 24 hours",
-      "sun": "open 24 hours",
-      "note": "Only 24-hour coffee stop on Haywood Road"
-    },
-    "passportStop": null,
-    "passportType": "bonus",
-    "selloColor": "#4a1a6b",
-    "selloPersonality": "botanical mandala, slightly psychedelic, organic edges",
-    "hygge": false,
-    "stamp": {
-      "welcomeLine": "You found Kava X Coffee \ud83c\udf3f",
-      "subLine": "The best pour overs on the strip. Open whenever you need them."
-    },
-    "story": {
-      "headline": "Plants everywhere. Pour overs that serious coffee people talk about.",
-      "body": "Attached to a gas station but don't let that fool you. The pour overs here are considered the best in West AVL by people who care about such things. Kava alongside the coffee \u2014 a traditional Pacific Islands calming drink. Vegan everything. The outdoor space hosts musicians. Open at 3am if that's when you need it.",
-      "insiderTip": "The pour over is worth the $8. Ask whoever is behind the bar which bean they'd personally recommend today. They always have a genuine answer.",
-      "parkingNote": "Gas station lot. Easy."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [
-      "haywood-famous",
-      "battlecat-coffee-bar"
-    ],
-    "multiLayer": true,
-    "instagram": "kavaxcoffee",
-    "website": "kavaxcoffee.com",
-    "placeId": "ChIJBah0NS6NWYgRLjqLFPp78DU",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "the-whale",
-    "name": "The Whale \u2014 A Craft Beer Collective",
-    "address": "507 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5841283,
-      35.5786014
-    ],
-    "layers": [
-      "bars"
-    ],
-    "zone": "north",
-    "rating": 4.8,
-    "reviewCount": 549,
-    "hours": {
-      "mon": "2PM\u201310PM",
-      "tue": "2PM\u201310PM",
-      "wed": "2PM\u201310PM",
-      "thu": "12PM\u201310PM",
-      "fri": "12PM\u201311PM",
-      "sat": "12PM\u201311PM",
-      "sun": "12PM\u201310PM",
-      "note": "500+ bottles. Shares space with Haywood Common. Board games inside."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#2A6090",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "500+ craft beer bottles. The best beer selection on Haywood Road.",
-      "body": "The Whale is what happens when craft beer obsessives open a bottle shop \u2014 an extraordinary rotating selection, Guinness on tap, board games, pet-friendly outdoor seating. Order food from Haywood Common next door and bring it over.",
-      "insiderTip": "Ask what came in this week. They track everything. The Diatribe collaboration IPA when available.",
-      "parkingNote": "Shared with Haywood Common."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "thewhaleavl",
-    "website": null,
-    "placeId": "ChIJ3SE2UJWMWYgRfzX0QYry9Wg",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "haywood-common",
-    "name": "Haywood Common",
-    "address": "507 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5841283,
-      35.5786014
-    ],
-    "layers": [
-      "food"
-    ],
-    "zone": "north",
-    "rating": 4.6,
-    "reviewCount": 951,
-    "hours": {
-      "mon": "11AM\u20139PM",
-      "tue": "11AM\u20139PM",
-      "wed": "11AM\u20139PM",
-      "thu": "11AM\u20139PM",
-      "fri": "11AM\u20139PM",
-      "sat": "10AM\u20139PM",
-      "sun": "10AM\u20139PM",
-      "note": "Weekend brunch from 10am. Vegan-friendly throughout menu."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#2A7A4A",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "Appalachian comfort food, vegan-friendly, right next to The Whale.",
-      "body": "Haywood Common does the Appalachian pantry thing properly \u2014 local ingredients, thoughtful combinations, CBD kombucha, Thai buffalo waffles at brunch. Order at the counter, take it to The Whale's outdoor area.",
-      "insiderTip": "The tuna poke bowl and the Thai buffalo chicken and waffle. Both better than they sound. The staff are genuinely kind.",
-      "parkingNote": "Shared lot."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "haywoodcommon",
-    "website": null,
-    "placeId": "ChIJVSG7UZWMWYgRgpOylNuLT7U",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "haywood-famous",
-    "name": "Haywood Famous",
-    "address": "508 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5841177,
-      35.5781863
-    ],
-    "layers": [
-      "coffee"
-    ],
-    "zone": "north",
-    "rating": 4.9,
-    "reviewCount": 78,
-    "hours": {
-      "mon": "8AM\u20131PM",
-      "tue": "8AM\u20131PM",
-      "wed": "closed",
-      "thu": "8AM\u20131PM, 7\u201310PM",
-      "fri": "8AM\u20131PM, 7\u201310PM",
-      "sat": "8AM\u20131PM, 7\u201310PM",
-      "sun": "8AM\u20131PM, 7\u201310PM",
-      "note": "Live music Thu\u2013Sun evenings. Closed Wednesday."
-    },
     "passportStop": 4,
     "passportType": "core",
-    "streetSide": "north",
-    "selloColor": "#1a3a6b",
-    "selloPersonality": "hand-lettered Cuban caf\u00e9 stamp, warm and slightly worn",
+    "streetSide": "east",
+    "selloColor": "#4A6741",
     "hygge": false,
     "stamp": {
-      "welcomeLine": "You found Haywood Famous \u2615",
-      "subLine": "The best caf\u00e9 con leche in Asheville. Eva will prove it."
+      "welcomeLine": "Books and espresso. The obvious pairing.",
+      "subLine": "Pages opened when the hardware store closed. That's Mount Airy."
     },
     "story": {
-      "headline": "Cuban coffee. Live music nights. The most welcoming room on the strip.",
-      "body": "Eva opened this with pure heart and it shows in every cup. The caf\u00e9 con leche is the real thing \u2014 not a facsimile. Thursday through Sunday nights the front room fills with soft live music and people who don't want to leave. The Cuban sandwich tastes like it was made in Miami.",
-      "insiderTip": "Come back on a Thursday evening. Different place entirely. Bring someone you want to talk to.",
-      "parkingNote": "Street parking. Can be tight Thu\u2013Sun evenings."
+      "headline": "Where the Hardware Store Used to Be",
+      "body": "Pages opened when the hardware store closed. The coffee bar is in what used to be the stockroom. The shelves are organized by feel as much as genre — fiction bleeds into biography, local history into travel. The espresso is from a small roaster in the region. The local history section in the back corner has things you won't find anywhere else.",
+      "insiderTip": "Check the local history shelf in the back corner. There's a self-published Mount Airy timeline that's not available anywhere else."
     },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
+    "hours": {
+      "mon": "8AM–6PM",
+      "tue": "8AM–6PM",
+      "wed": "8AM–6PM",
+      "thu": "8AM–6PM",
+      "fri": "8AM–6PM",
+      "sat": "8AM–6PM",
+      "sun": "10AM–4PM",
+      "note": "Coffee bar may close earlier than the bookshop."
     },
-    "nearbyPassportStops": [
-      "asheville-kava-coffee",
-      "deep-time-coffee"
-    ],
-    "multiLayer": false,
-    "instagram": "haywoodfamous",
-    "website": "haywoodfamous.com",
-    "placeId": "ChIJWZA8YICNWYgRP6jtlCK-9xs",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
+    "instagram": null,
+    "website": null,
+    "placeId": null,
+    "photos": [],
+    "_todo": "Placeholder — verify Pages Books hours and coffee roaster source, add instagram/website, confirm local history section detail"
   },
   {
-    "id": "one-world-brewing",
-    "name": "One World Brewing West",
-    "address": "520 Haywood Rd",
-    "city": "Asheville",
+    "id": "barneys-cafe",
+    "name": "Barney's Cafe",
+    "address": "206 N Main St",
+    "city": "Mount Airy",
     "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5846861,
-      35.5783412
-    ],
-    "layers": [
-      "bars"
-    ],
+    "zip": "27030",
+    "coordinates": [-80.6070, 36.5013],
+    "layers": ["restaurants"],
     "zone": "north",
-    "rating": 4.6,
-    "reviewCount": 248,
-    "hours": {
-      "mon": "4PM\u201311PM",
-      "tue": "4PM\u201310PM",
-      "wed": "4PM\u201312AM",
-      "thu": "4PM\u201311PM",
-      "fri": "closed",
-      "sat": "3PM\u201311PM",
-      "sun": "12PM\u20139PM",
-      "note": "Live music every night. Grateful Dead nights, bluegrass Sundays."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#2A6090",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "Live music every night. The neighborhood's living room after dark.",
-      "body": "One World has built a community around live music \u2014 Grateful Dead nights, Brazilian Roda, bluegrass Sundays, DJ sets. The beer is solid, the mixologists are good, the vibe is warm and unpretentious.",
-      "insiderTip": "Monday Mashup is underrated \u2014 locals only, genuine energy. Closed Fridays which surprises people.",
-      "parkingNote": "Street parking. Can fill up for live music nights."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "oneworldbrewing",
-    "website": null,
-    "placeId": "ChIJxQcAS5WMWYgR6-TX6KyC5Zc",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "woodland-tattoo",
-    "name": "Woodland Tattoo & Talismans",
-    "address": "Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.592,
-      35.5785
-    ],
-    "layers": [
-      "tattoo"
-    ],
-    "zone": "south",
-    "rating": 4.9,
-    "reviewCount": 30,
-    "hours": {
-      "mon": "appointment only",
-      "tue": "appointment only",
-      "wed": "appointment only",
-      "thu": "appointment only",
-      "fri": "appointment only",
-      "sat": "appointment only",
-      "sun": "appointment only",
-      "note": "Appointment only. Fine-line black and grey specialists. Eco-friendly supplies."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#7A2A7A",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "Fine-line black and grey in a serene appointment-only space.",
-      "body": "Em and Rachel built Woodland around consent and comfort \u2014 the most intentional tattoo experience on the strip. Eco-friendly disposable equipment, abundant natural light, a curated snack bar, and monthly flash days for those on a budget.",
-      "insiderTip": "Em opens books every 1\u20132 months. Follow on Instagram to catch the opening. Monthly flash days are the accessible entry point.",
-      "parkingNote": "Street parking."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "woodlandtattooavl",
-    "website": "woodlandtattoo.com",
-    "placeId": null,
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "seven-swords-tattoo",
-    "name": "Seven Swords Tattoo Company",
-    "address": "Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.587,
-      35.5787
-    ],
-    "layers": [
-      "tattoo"
-    ],
-    "zone": "south",
-    "rating": 4.8,
-    "reviewCount": 300,
-    "hours": {
-      "mon": "walk-ins welcome",
-      "tue": "walk-ins welcome",
-      "wed": "walk-ins welcome",
-      "thu": "walk-ins welcome",
-      "fri": "walk-ins welcome",
-      "sat": "walk-ins welcome",
-      "sun": "walk-ins welcome",
-      "note": "Owned by world-renowned Myke Chambers. All styles. Walk-ins always welcome."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#7A2A7A",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "Myke Chambers is world-renowned. Walk-ins always welcome.",
-      "body": "Seven Swords is owned by Myke Chambers \u2014 a name that serious tattoo people know. The shop attracts artists and clients from across the country. All styles covered, immaculate space, walk-ins genuinely welcome.",
-      "insiderTip": "Call ahead for walk-in availability \u2014 the artists get busy. For a planned piece, book directly with your preferred artist through their Instagram.",
-      "parkingNote": "Street parking."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "sevenswordstattoo",
-    "website": "sevenswordstattoocompany.com",
-    "placeId": null,
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "hail-mary",
-    "name": "Hail Mary",
-    "address": "575 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5866373,
-      35.5786685
-    ],
-    "layers": [
-      "food"
-    ],
-    "zone": "south",
-    "rating": 4.7,
-    "reviewCount": 228,
-    "hours": {
-      "mon": "11AM\u201310PM",
-      "tue": "closed",
-      "wed": "11AM\u201310PM",
-      "thu": "11AM\u201310PM",
-      "fri": "11AM\u201311PM",
-      "sat": "11AM\u201311PM",
-      "sun": "11AM\u201310PM",
-      "note": "In the old Tastee Diner spot. Smash burgers and hot chicken."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#2A7A4A",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "The best smash burger on Haywood Road. PB&J Brussels sprouts.",
-      "body": "Hail Mary took the old Tastee Diner spot and made it their own. The smash burger is the real thing. The PB&J Brussels sprouts are a dare you should take. Order at the counter.",
-      "insiderTip": "The Popper Burg. The sauce flight with fries. Don't skip the PB&J Brussels \u2014 it sounds wrong and tastes right.",
-      "parkingNote": "Street parking."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "hailmaryavl",
-    "website": null,
-    "placeId": "ChIJPT_gZbyNWYgRagHTrjsbutc",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "chlorophyll",
-    "name": "Chlorophyll",
-    "address": "585 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5871558,
-      35.5787696
-    ],
-    "layers": [
-      "plants"
-    ],
-    "zone": "south",
-    "rating": 4.9,
-    "reviewCount": 64,
-    "hours": {
-      "mon": "closed",
-      "tue": "closed",
-      "wed": "closed",
-      "thu": "closed",
-      "fri": "10:30AM\u20136:30PM",
-      "sat": "10:30AM\u20136:30PM",
-      "sun": "10:30AM\u20136:30PM",
-      "note": "Fri\u2013Sun only. Four areas including a greenhouse in back."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#2a6b2a",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "Four areas, a greenhouse in back, and an owner who really loves plants.",
-      "body": "Chlorophyll is a plant shop with genuine depth \u2014 four distinct areas including a back greenhouse, rare and common plants both, knowledgeable and friendly staff who can answer real questions. Healthy plants, no gnats.",
-      "insiderTip": "Get on the wish list for rare incoming plants. Jaime the owner will follow up when what you want comes in.",
-      "parkingNote": "Street parking."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "chlorophyllavl",
-    "website": null,
-    "placeId": "ChIJ6UnuWNmNWYgRaXIuNHtW57k",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "deep-time-coffee",
-    "name": "Deep Time Coffee",
-    "address": "587 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5874019,
-      35.5792914
-    ],
-    "layers": [
-      "coffee"
-    ],
-    "zone": "south",
-    "rating": 5.0,
-    "reviewCount": 14,
-    "hours": {
-      "mon": "closed",
-      "tue": "8AM\u20132PM",
-      "wed": "8AM\u20132PM",
-      "thu": "8AM\u20132PM",
-      "fri": "closed",
-      "sat": "closed",
-      "sun": "8AM\u20132PM",
-      "note": "Tue/Wed/Thu/Sun only. Worth planning around."
-    },
-    "passportStop": null,
-    "passportType": "bonus",
-    "selloColor": "#5c3a1a",
-    "selloPersonality": "geological layer cross-section, deep and unhurried",
-    "hygge": false,
-    "stamp": {
-      "welcomeLine": "You crossed I-240 \u23f3",
-      "subLine": "The road gets quieter from here. That's not a warning \u2014 it's the point."
-    },
-    "story": {
-      "headline": "The only perfect 5-star stop on the strip. Open 4 days a week.",
-      "body": "Deep time is a geological concept \u2014 the vast unhurried timescale of the Earth. That's what this place feels like. Community-rooted, deliberately limited hours, a perfect score from everyone who finds it. The name tells you everything about how they think about a cup of coffee.",
-      "insiderTip": "If it's closed when you arrive, that's part of the story. Come back. The four days it's open are worth planning around.",
-      "parkingNote": "Street parking. South of I-240 is calmer \u2014 easier to park."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [
-      "haywood-famous",
-      "bad-manners-coffee"
-    ],
-    "multiLayer": false,
-    "instagram": null,
-    "website": "deeptimeavl.org",
-    "placeId": "ChIJK_S1VgCNWYgR0o_FnZaahfk",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "local-604-bottle-shop",
-    "name": "Local 604 Bottle Shop",
-    "address": "604 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5880353,
-      35.5785231
-    ],
-    "layers": [
-      "bars"
-    ],
-    "zone": "south",
-    "rating": 4.9,
-    "reviewCount": 217,
-    "hours": {
-      "mon": "11AM\u20138PM",
-      "tue": "11AM\u20138PM",
-      "wed": "11AM\u20138PM",
-      "thu": "11AM\u20138PM",
-      "fri": "11AM\u20139PM",
-      "sat": "11AM\u20139PM",
-      "sun": "12PM\u20137PM",
-      "note": "Owners taste everything they sell. Mix-and-match discount on 4+"
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#2A6090",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "The best craft beer bottle shop in Asheville. Full stop.",
-      "body": "Local 604 has a 4.9 rating because the owners taste every single thing they stock. It shows in the curation \u2014 nothing is here by accident. Sours, IPAs, lagers, naturals \u2014 all thoughtfully chosen, all at fair prices.",
-      "insiderTip": "Tell them what you like and what you had last time. They remember. The mix-and-match singles with a discount on 4+ is how you discover something new.",
-      "parkingNote": "Street parking."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "local604",
-    "website": null,
-    "placeId": "ChIJZfKts5SMWYgRsrrB_ZUFK10",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "girl-and-goblin",
-    "name": "Girl & Goblin",
-    "address": "610 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5889,
-      35.5786
-    ],
-    "layers": [
-      "tattoo"
-    ],
-    "zone": "south",
-    "rating": 4.9,
-    "reviewCount": 200,
-    "hours": {
-      "mon": "by appointment",
-      "tue": "by appointment",
-      "wed": "by appointment",
-      "thu": "by appointment",
-      "fri": "by appointment",
-      "sat": "by appointment",
-      "sun": "by appointment",
-      "note": "Award-winning. Oddities shop alongside the tattoo studio."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#7A2A7A",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "Award-winning tattoo shop and oddities destination.",
-      "body": "Girl & Goblin has been called the coolest tattoo shop in existence \u2014 that's a direct quote from a recent visitor. The oddities collection is worth seeing even if you're not getting tattooed. Multiple artist styles.",
-      "insiderTip": "Browse the portfolios before booking \u2014 each artist has a distinct style. The oddities room is a free exhibit.",
-      "parkingNote": "Street parking."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "girlandgoblin",
-    "website": "girlandgoblin.com",
-    "placeId": null,
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "oyster-house-brewing",
-    "name": "Oyster House Brewing Company",
-    "address": "625 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5888367,
-      35.5788951
-    ],
-    "layers": [
-      "bars",
-      "food"
-    ],
-    "zone": "south",
-    "rating": 4.5,
-    "reviewCount": 456,
-    "hours": {
-      "mon": "3PM\u201310PM",
-      "tue": "3PM\u201310PM",
-      "wed": "3PM\u201310PM",
-      "thu": "3PM\u201310PM",
-      "fri": "3PM\u201310PM",
-      "sat": "11AM\u201310PM",
-      "sun": "11AM\u201310PM",
-      "note": "Oyster happy hour weekdays 3\u20136PM. Fresh oysters and po'boys."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#2A6090",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "Fresh oysters. An oyster stout. Po'boys that taste like NOLA.",
-      "body": "Oyster House brings coastal energy to a landlocked mountain street. The raw oysters are fresh and properly shucked. The po'boys are the real thing. The oyster stout is brewed with actual oysters.",
-      "insiderTip": "Weekday oyster happy hour 3\u20136PM is the move. The mac and cheese is creamy and generous.",
-      "parkingNote": "Street parking."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": true,
-    "instagram": "oysterhousebrewing",
-    "website": null,
-    "placeId": "ChIJhRm6BVfzWYgRAAeUcqP9MlA",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "west-avl-street-market",
-    "name": "West AVL Street Market",
-    "address": "662 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5900653,
-      35.5778309
-    ],
-    "layers": [
-      "clothing"
-    ],
-    "zone": "south",
-    "rating": 5.0,
-    "reviewCount": 13,
-    "hours": {
-      "mon": "closed",
-      "tue": "closed",
-      "wed": "closed",
-      "thu": "closed",
-      "fri": "closed",
-      "sat": "12PM\u20135PM",
-      "sun": "12PM\u20135PM",
-      "note": "Weekend pop-up only. Inside Haywood Country Club. Bar and food trucks."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#C04A1A",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "Weekend pop-up vintage market with a bar attached.",
-      "body": "The West AVL Street Market runs Saturday and Sunday inside Haywood Country Club \u2014 vintage clothing, handmade goods, great Aloha shirt selection, a bar, a food truck. Walking distance from Sunny Point and Biscuit Head.",
-      "insiderTip": "Fernando Tradewinds for the Aloha shirts. Come early \u2014 the good stuff moves fast.",
-      "parkingNote": "Haywood Country Club lot."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": null,
-    "website": null,
-    "placeId": "ChIJa1lPOACNWYgRnyJU7D6H64w",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "twice-round-vintage",
-    "name": "Twice Round Vintage",
-    "address": "667 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5901622,
-      35.5784234
-    ],
-    "layers": [
-      "clothing"
-    ],
-    "zone": "south",
-    "rating": 4.6,
-    "reviewCount": 66,
-    "hours": {
-      "mon": "11:30AM\u20135:30PM",
-      "tue": "11:30AM\u20135:30PM",
-      "wed": "closed",
-      "thu": "11:30AM\u20135:30PM",
-      "fri": "11:30AM\u20135:30PM",
-      "sat": "11:30AM\u20135:30PM",
-      "sun": "12PM\u20134PM",
-      "note": "Closed Wednesdays."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#C04A1A",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "One of the best vintage stores in the South.",
-      "body": "Twice Round has earned that reputation through consistent curation and fair prices. Wide selection, many styles, owner is present and passionate about what they carry.",
-      "insiderTip": "Come back regularly \u2014 the inventory turns over fast and the good stuff moves quickly.",
-      "parkingNote": "Street parking."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "twiceroundvintage",
-    "website": null,
-    "placeId": "ChIJpYy4teyMWYgRiqUucOXjINY",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "bad-manners-coffee",
-    "name": "Bad Manners Coffee",
-    "address": "697 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5914564,
-      35.5779953
-    ],
-    "layers": [
-      "coffee"
-    ],
-    "zone": "south",
-    "rating": 4.8,
-    "reviewCount": 177,
-    "hours": {
-      "mon": "8AM\u20132PM",
-      "tue": "8AM\u20132PM",
-      "wed": "8AM\u20132PM",
-      "thu": "8AM\u20132PM",
-      "fri": "8AM\u20132PM",
-      "sat": "9AM\u20133PM",
-      "sun": "9AM\u20133PM",
-      "note": "Weekend hours slightly later \u2014 plan accordingly"
-    },
     "passportStop": 5,
     "passportType": "core",
-    "streetSide": "south",
-    "selloColor": "#1a5c5c",
-    "selloPersonality": "safety pin through ink circle, punk warmth",
-    "hygge": true,
-    "hyggeFactor": {
-      "linger": true,
-      "naturalLight": true,
-      "ownerPresent": true,
-      "outdoorConnection": false,
-      "hiddenArrival": true
-    },
-    "stamp": {
-      "welcomeLine": "You found Bad Manners \u2615",
-      "subLine": "Every wall is someone's art. Owner Ash built this by hand."
-    },
-    "story": {
-      "headline": "Artsy walls. Tandem roasts from Portland, Maine. Owner present.",
-      "body": "Ash poured herself into every corner of this place and you can feel it. Local art covers every surface \u2014 all for sale, all by people she knows. They source from Tandem Coffee Roasters in Portland, Maine \u2014 sharp, bright, intentional. The espresso tonic is required. The seasonal menu is always worth trying.",
-      "insiderTip": "Suite G \u2014 look for the letter on the door. The seasonal drinks change often and the staff are genuinely excited to tell you about them. Ask.",
-      "parkingNote": "Street parking on Haywood. Suite G entrance."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [
-      "deep-time-coffee",
-      "rowan-coffee"
-    ],
-    "multiLayer": false,
-    "instagram": "badmannerscoffee",
-    "website": null,
-    "placeId": "ChIJXxgLg_WNWYgR_4fSD-zTuAQ",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "revolve",
-    "name": "rEvolve Buy+Sell+Trade",
-    "address": "697 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5915543,
-      35.5777831
-    ],
-    "layers": [
-      "clothing"
-    ],
-    "zone": "south",
-    "rating": 4.6,
-    "reviewCount": 109,
-    "hours": {
-      "mon": "11AM\u20136PM",
-      "tue": "11AM\u20136PM",
-      "wed": "11AM\u20136PM",
-      "thu": "11AM\u20136PM",
-      "fri": "11AM\u20137PM",
-      "sat": "11AM\u20137PM",
-      "sun": "11AM\u20135PM",
-      "note": "Buy, sell, and trade. Kids play area inside."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#C04A1A",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "The best vintage shop in AVL per regulars who've been everywhere.",
-      "body": "rEvolve has inclusive sizing, a kids play area, and genuinely kind staff. The buy-sell-trade model means the inventory is always fresh and the prices reflect real market value.",
-      "insiderTip": "Bring clothes to trade \u2014 the staff is generous on valuation and you'll leave with something better than you brought.",
-      "parkingNote": "Street parking."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "revolveavl",
-    "website": null,
-    "placeId": "ChIJddqK4C2NWYgR7QDvZlCI7NA",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "dobra-tea-house",
-    "name": "Dobra Tea House",
-    "address": "707 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5917,
-      35.5782
-    ],
-    "layers": [
-      "coffee"
-    ],
-    "zone": "south",
-    "rating": 4.7,
-    "reviewCount": 132,
-    "hours": {
-      "mon": "10AM\u20137PM",
-      "tue": "10AM\u20137PM",
-      "wed": "10AM\u20137PM",
-      "thu": "10AM\u20137PM",
-      "fri": "10AM\u20137PM",
-      "sat": "10AM\u20137PM",
-      "sun": "10AM\u20137PM",
-      "note": "Food until 3PM. Tea service all day. Floor cushion seating."
-    },
-    "passportStop": null,
-    "passportType": "bonus",
-    "passportBonusNumber": 5,
-    "selloColor": "#5c3a6b",
-    "selloPersonality": "delicate tea leaf pressed in ink, Czech bohemian elegance",
-    "hygge": true,
-    "hyggeFactor": {
-      "linger": true,
-      "naturalLight": true,
-      "ownerPresent": false,
-      "outdoorConnection": false,
-      "hiddenArrival": false,
-      "ritualExperience": true
-    },
-    "stamp": {
-      "welcomeLine": "You found Dobra Tea House \ud83c\udf75",
-      "subLine": "This story started in Prague in 1993. It found its way to Haywood Road."
-    },
-    "story": {
-      "headline": "Communist Prague to Haywood Road. The most traveled cup on the strip.",
-      "body": "Dobra began as an underground tea circle in communist Czechoslovakia \u2014 rare Indian, Chinese and Japanese teas smuggled past party officials who kept the good stuff for themselves. After the Velvet Revolution in 1989, the Society of Tea Devotees formed and opened the first Dobr\u00e1 \u010cajovna in Prague in 1993. That spirit \u2014 tea as resistance, as community, as deliberate slowness \u2014 is what you feel when you sit on the floor cushions at 707 Haywood Road with a wooden tray and 100 choices in front of you.",
-      "insiderTip": "The Tulsi Rose is extraordinary. The mugwort mochi daifuku if you want something unlike anything else on the strip. Sit on the floor cushions \u2014 it changes the pace of the afternoon.",
-      "parkingNote": "Street parking. Between Bad Manners and Rowan."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [
-      "bad-manners-coffee",
-      "rowan-coffee"
-    ],
-    "multiLayer": false,
-    "instagram": "dobrateanc",
-    "website": "dobrateanc.com",
-    "placeId": null,
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "bebop-bottle-shop",
-    "name": "Bebop Bottle Shop",
-    "address": "723 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5922855,
-      35.5778066
-    ],
-    "layers": [
-      "bars"
-    ],
-    "zone": "south",
-    "rating": 4.8,
-    "reviewCount": 25,
-    "hours": {
-      "mon": "closed",
-      "tue": "2PM\u20139PM",
-      "wed": "2PM\u20139PM",
-      "thu": "2PM\u20139PM",
-      "fri": "2PM\u20139PM",
-      "sat": "2PM\u20139PM",
-      "sun": "2PM\u20136PM",
-      "note": "Wine bar and bottle shop. Live music events. Wine club membership."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#2A6090",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "Wine bar, bottle shop, and the warmest welcome on the south end.",
-      "body": "Brian and Phil built Bebop around genuine expertise and zero pretension. They'll help you find something you'll love without making you feel judged for not knowing it already. Wine club, live music nights, Italian sodas.",
-      "insiderTip": "Tell them your budget and what you liked last time. They listen. The Thursday sample nights are a good way to discover something new cheaply.",
-      "parkingNote": "Street parking."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "bebopbottleshop",
-    "website": null,
-    "placeId": "ChIJl3gkeQCNWYgRqWPMIHukNyU",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "reciprocity",
-    "name": "Reciprocity",
-    "address": "732 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.592991,
-      35.577534
-    ],
-    "layers": [
-      "clothing"
-    ],
-    "zone": "south",
-    "rating": 4.8,
-    "reviewCount": 95,
-    "hours": {
-      "mon": "closed",
-      "tue": "11AM\u20136PM",
-      "wed": "11AM\u20136PM",
-      "thu": "11AM\u20136PM",
-      "fri": "11AM\u20136PM",
-      "sat": "11AM\u20136PM",
-      "sun": "11AM\u20136PM",
-      "note": "Owner Toni has run this since 2009. Jungle vibes inside."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#C04A1A",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "West AVL consignment since 2009. Owner Toni makes it feel like home.",
-      "body": "Reciprocity has been on the corner of Brevard and Haywood since 2009 \u2014 Toni's social work background shows in how she runs the floor. Inclusive, knowledgeable, not overwhelming. The lush greenery inside is its own reason to visit.",
-      "insiderTip": "Not the cheapest consignment on the strip but the quality justifies it. The sizing range is real, not token.",
-      "parkingNote": "Corner of Brevard and Haywood. Street parking."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "reciprocityavl",
-    "website": null,
-    "placeId": "ChIJgWRXpvKMWYgR5UmT59VDGPw",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "west-end-bakery",
-    "name": "The West End Bakery",
-    "address": "757 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5937631,
-      35.5783504
-    ],
-    "layers": [
-      "bakery",
-      "food"
-    ],
-    "zone": "south",
-    "rating": 4.3,
-    "reviewCount": 506,
-    "hours": {
-      "mon": "closed",
-      "tue": "closed",
-      "wed": "8AM\u20134PM",
-      "thu": "8AM\u20134PM",
-      "fri": "8AM\u20134PM",
-      "sat": "8AM\u20134PM",
-      "sun": "8:30AM\u20134PM",
-      "note": "Wed\u2013Sun only. TooGoodToGo app for end-of-day deals."
-    },
-    "passportStop": 10,
-    "passportType": "core",
-    "streetSide": "south",
-    "selloColor": "#c8973a",
-    "selloPersonality": "breakfast biscuit pressed in ink, warm and unpretentious",
+    "streetSide": "east",
+    "selloColor": "#6B3A2E",
     "hygge": false,
     "stamp": {
-      "welcomeLine": "You found West End Bakery ☕",
-      "subLine": "The most affordable good meal on Haywood Road. Free parking outside — unheard of."
+      "welcomeLine": "One bullet. One biscuit.",
+      "subLine": "The pie case turns slowly near the register. Order whatever's left."
     },
     "story": {
-      "headline": "The breakfast biscuit anchor of the south end.",
-      "body": "West End Bakery has been feeding West Asheville for years. The lavender iced oat milk latte is the signature drink. The breakfast biscuit is the most affordable good meal on Haywood Road. They use TooGoodToGo to reduce food waste at end of day.",
-      "insiderTip": "Order ahead to skip the line. The matcha is excellent. Free parking spaces right outside \u2014 unheard of for this area.",
-      "parkingNote": "Free parking spaces directly outside. Genuinely rare."
+      "headline": "Barney Would've Ordered the Chicken Biscuit",
+      "body": "Named for Barney Fife, though Barney himself never would've ordered anything adventurous. The menu runs from biscuits and gravy to a grilled pimento cheese on sourdough. The booths are original. The pie case turns slowly near the register. The coffee is refillable and the same as it's always been.",
+      "insiderTip": "Order the chicken biscuit and whatever pie is left at the end of the day."
     },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": true,
-    "instagram": "westendbakeryavl",
-    "website": null,
-    "placeId": "ChIJMUCVUe2MWYgRHp-CqG6HP-A",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "the-brew-pump",
-    "name": "The Brew Pump",
-    "address": "760 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5940225,
-      35.5779962
-    ],
-    "layers": [
-      "bars"
-    ],
-    "zone": "south",
-    "rating": 4.6,
-    "reviewCount": 223,
     "hours": {
-      "mon": "3PM\u201311PM",
-      "tue": "3PM\u201311PM",
-      "wed": "3PM\u201311PM",
-      "thu": "3PM\u201311PM",
-      "fri": "3PM\u201311PM",
-      "sat": "3PM\u201310PM",
-      "sun": "3PM\u201311PM",
-      "note": "$4 draft beers. Inside a gas station. Heaters outside. Food trucks rotate."
+      "mon": "6AM–3PM",
+      "tue": "6AM–3PM",
+      "wed": "6AM–3PM",
+      "thu": "6AM–3PM",
+      "fri": "6AM–3PM",
+      "sat": "6AM–3PM",
+      "sun": "7AM–2PM",
+      "note": "Pies sell out. Come before noon if the pie matters."
     },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#2A6090",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "$4 drafts inside a gas station. Wonderfully, specifically American.",
-      "body": "The Brew Pump is one of those places that could only exist in West Asheville. Connected to a gas station convenience store, $4 draft beers, heaters outside, rotating food trucks, a bartender playing good music. It's unpretentious in the best possible way.",
-      "insiderTip": "Grab snacks from the gas station and bring them to the bar \u2014 they're fine with it. The Bun Intended Thai food truck when it's there.",
-      "parkingNote": "Gas station lot. Easy."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
     "instagram": null,
     "website": null,
-    "placeId": "ChIJIWcpWO2MWYgRt40Kbd25lpc",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
+    "placeId": null,
+    "photos": [],
+    "_todo": "Placeholder — verify Barney's Cafe hours and menu details, confirm pie case description, add contact info"
   },
   {
-    "id": "westville-pub",
-    "name": "Westville Pub",
-    "address": "777 Haywood Rd",
-    "city": "Asheville",
+    "id": "thirsty-souls",
+    "name": "Thirsty Souls Community Brewing",
+    "address": "238 Market St",
+    "city": "Mount Airy",
     "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5943407,
-      35.5786206
-    ],
-    "layers": [
-      "bars",
-      "food"
-    ],
+    "zip": "27030",
+    "coordinates": [-80.6082, 36.5026],
+    "layers": ["bars"],
     "zone": "south",
-    "rating": 4.4,
-    "reviewCount": 1570,
-    "hours": {
-      "mon": "10:30AM\u20132AM",
-      "tue": "10:30AM\u20132AM",
-      "wed": "10:30AM\u20132AM",
-      "thu": "10:30AM\u20132AM",
-      "fri": "10:30AM\u20132AM",
-      "sat": "10:30AM\u20132AM",
-      "sun": "10:30AM\u20132AM",
-      "note": "Open until 2AM daily. West AVL's original watering hole since 2002."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#2A6090",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "West AVL's original watering hole. Open since 2002. Open until 2AM.",
-      "body": "Westville was here before most of what's on Haywood Road now. 1,570 reviews and still going. The Reuben is outstanding. The onion rings are the best on the strip. Open until 2AM every single day.",
-      "insiderTip": "The Reuben. Named 'Outstanding' by regulars who've tried them all. The 7-beer dip is what it sounds like and better than it should be.",
-      "parkingNote": "Valet parking available \u2014 use it."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": true,
-    "instagram": "westvillepub",
-    "website": null,
-    "placeId": "ChIJL0ZcVe2MWYgRcG14yTPR7wk",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "rowan-coffee",
-    "name": "Rowan Coffee",
-    "address": "785 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5947642,
-      35.5788936
-    ],
-    "layers": [
-      "coffee",
-      "bars"
-    ],
-    "zone": "south",
-    "rating": 4.7,
-    "reviewCount": 110,
-    "hours": {
-      "mon": "7:30AM\u20135PM",
-      "tue": "7:30AM\u20135PM",
-      "wed": "7:30AM\u20135PM",
-      "thu": "7:30AM\u20138PM",
-      "fri": "7:30AM\u20138PM",
-      "sat": "7:30AM\u20138PM",
-      "sun": "7:30AM\u20138PM",
-      "note": "Late nights Thu\u2013Sun. Oysters on Fridays."
-    },
     "passportStop": 6,
     "passportType": "core",
-    "streetSide": "south",
-    "selloColor": "#4a5c1a",
-    "selloPersonality": "wine glass and coffee cup intertwined, elegant",
+    "streetSide": "west",
+    "selloColor": "#8B3A2E",
     "hygge": true,
-    "hyggeFactor": {
-      "linger": true,
-      "naturalLight": true,
-      "ownerPresent": false,
-      "outdoorConnection": true,
-      "hiddenArrival": false
-    },
     "stamp": {
-      "welcomeLine": "You found Rowan \u2615",
-      "subLine": "Coffee until 5. Wine after. Oysters on Fridays."
+      "welcomeLine": "From the Tatra Mountains to Market Street.",
+      "subLine": "Jan carried casks up Slovak hills. Now he brews in a funeral home. Ask him about both."
     },
     "story": {
-      "headline": "Tall ceilings, exposed brick, and the feeling that you could stay all day.",
-      "body": "Rowan opened in April 2025 and immediately felt like it had always been here. The transition from coffee bar to wine bar happens naturally around 4pm \u2014 no jarring shift, just the light changing and the glasses getting bigger. Hilary's seasonal syrups are the reason regulars come back. The staff remember your name within three visits.",
-      "insiderTip": "Friday oysters. Show up at 4pm, order a glass of something cold, eat oysters on Haywood Road and feel like you're somewhere else entirely.",
-      "parkingNote": "Street parking. Outdoor seating available."
+      "headline": "A Funeral Home, Rewritten",
+      "body": "Jan and Maria Kriska moved from Slovakia to Mount Airy. Jan is a sleep medicine doctor. Maria teaches biology. On weekends they run a brewery in a former funeral home. The beer names — Hoppy Souls, R.I.P.A. — nod to the building's past. The smoked salmon on the menu nods to where they came from.",
+      "insiderTip": "Order the Scandinavian salmon. Cucumber, cream cheese, lox, capers. In a brewery in North Carolina. That's the whole story."
     },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [
-      "bad-manners-coffee",
-      "odds-cafe"
-    ],
-    "multiLayer": true,
-    "instagram": "rowancoffeeavl",
-    "website": "rowancoffee.com",
-    "placeId": "ChIJbyl31yqNWYgRQR71rHez8H4",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "character-study",
-    "name": "Character Study",
-    "address": "797 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.595,
-      35.5786
-    ],
-    "layers": [
-      "bars",
-      "books"
-    ],
-    "zone": "south",
-    "rating": 4.8,
-    "reviewCount": 150,
     "hours": {
-      "mon": "4PM\u201311PM",
-      "tue": "4PM\u201311PM",
-      "wed": "closed",
-      "thu": "4PM\u201311PM",
-      "fri": "4PM\u201312AM",
-      "sat": "4PM\u201312AM",
-      "sun": "4PM\u201311PM",
-      "note": "Closed Wednesdays. $8 Bagatelle books. $9 daily drink specials."
+      "mon": "closed",
+      "tue": "3PM–9PM",
+      "wed": "3PM–9PM",
+      "thu": "3PM–9PM",
+      "fri": "3PM–10PM",
+      "sat": "12PM–10PM",
+      "sun": "12PM–8PM",
+      "note": "Kitchen hours may differ from tap room hours."
     },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#1A3A6A",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "Cocktail bar as psychedelic library. Books from Bagatelle. Daily $9 specials.",
-      "body": "Character Study is what happens when Little Jumbo's owners fell in love with West Asheville \u2014 a literary-themed cocktail bar where the books are actually good (sourced from Bagatelle Books down the street), the carrels are real library carrels, and the cocktail list is serious without being expensive.",
-      "insiderTip": "The $8 books are real finds \u2014 Bagatelle curates them personally. Buy a book, order the daily $9 special, find a carrel. You might not leave.",
-      "parkingNote": "Street parking. Closes Wednesdays."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": true,
-    "instagram": "characterstudybar",
-    "website": "characterstudybar.com",
+    "instagram": null,
+    "website": null,
     "placeId": null,
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
+    "photos": [
+      "thirsty-souls-interior.jpg",
+      "thirsty-souls-detail.jpg"
+    ],
+    "_todo": "Placeholder — verify Thirsty Souls hours, confirm Jan/Maria ownership details, add instagram/website"
   },
   {
-    "id": "odds-cafe",
-    "name": "Odd's Cafe",
-    "address": "800 Haywood Rd",
-    "city": "Asheville",
+    "id": "balladeer-hotel",
+    "name": "The Balladeer Hotel",
+    "address": "239 Willow St",
+    "city": "Mount Airy",
     "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5952913,
-      35.5788769
-    ],
-    "layers": [
-      "coffee"
-    ],
+    "zip": "27030",
+    "coordinates": [-80.6085, 36.5031],
+    "layers": ["lodging", "music"],
     "zone": "south",
-    "rating": 4.6,
-    "reviewCount": 670,
-    "hours": {
-      "mon": "7AM\u20137PM",
-      "tue": "7AM\u20137PM",
-      "wed": "7AM\u20137PM",
-      "thu": "7AM\u20137PM",
-      "fri": "7AM\u20137PM",
-      "sat": "7AM\u20137PM",
-      "sun": "7AM\u20137PM",
-      "note": "Most reliable hours on the strip \u2014 daily 7 to 7"
-    },
     "passportStop": 7,
     "passportType": "core",
-    "streetSide": "north",
-    "selloColor": "#2a3a4a",
-    "selloPersonality": "aztec spiral swirl, like the mocha that made it famous",
-    "hygge": false,
-    "hyggeFactor": {
-      "linger": true,
-      "naturalLight": true,
-      "ownerPresent": false,
-      "outdoorConnection": true,
-      "hiddenArrival": false
-    },
+    "streetSide": "west",
+    "selloColor": "#3F5E3A",
+    "hygge": true,
     "stamp": {
-      "welcomeLine": "You found Odd's \u2615",
-      "subLine": "The garage door opens when the weather is right. Find a seat outside."
+      "welcomeLine": "Spencer's Mill, 1892. Now with turntables.",
+      "subLine": "The bones are the building's. The records are yours."
     },
     "story": {
-      "headline": "670 reviews. Daily 7 to 7. The Aztec mocha with a kick.",
-      "body": "Most reviewed coffee on Haywood Road and the most reliable hours. The garage door window opens to the street on good days. The outdoor seating in back is its own world. They partner with cottage food bakers so the pastry case is always a surprise. The Aztec mocha \u2014 chocolate, espresso, chili \u2014 is the signature for a reason.",
-      "insiderTip": "The almond cake. People who know Odd's always mention the almond cake. It's not always there \u2014 when it is, get it.",
-      "parkingNote": "Paid parking nearby. Street parking on Haywood."
+      "headline": "The Mill That Became a Hotel",
+      "body": "Spencer's textile mill ran here from 1892. The cast-iron columns stayed. The painted brick stayed. The arched window openings stayed. What's new is the listening lounge with the Doc Watson records, the tap wall, and the bluegrass books on the table. The Balladeer doesn't restore the building. It moves in.",
+      "insiderTip": "Ask about the vinyl library. The Doc Watson and Donna Fargo records are not decoration."
     },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
+    "hours": {
+      "mon": "24 hours",
+      "tue": "24 hours",
+      "wed": "24 hours",
+      "thu": "24 hours",
+      "fri": "24 hours",
+      "sat": "24 hours",
+      "sun": "24 hours",
+      "note": "Hotel lobby open 24 hours. Listening lounge hours vary — ask at front desk."
     },
-    "nearbyPassportStops": [
-      "rowan-coffee",
-      "plant-bar"
-    ],
-    "multiLayer": false,
-    "instagram": "oddscafeavl",
-    "website": "oddscafe.com",
-    "placeId": "ChIJceCntPKMWYgRyxJEega4qtk",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
+    "instagram": null,
+    "website": null,
+    "placeId": null,
+    "photos": [
+      "balladeer-hotel-exterior.jpg",
+      "balladeer-hotel-interior.jpg",
+      "balladeer-hotel-interior-2.jpg",
+      "balladeer-hotel-interior-3.jpg"
+    ]
   },
   {
-    "id": "plant-bar",
-    "name": "Plant Bar",
-    "address": "919 Haywood Rd",
-    "city": "Asheville",
+    "id": "andy-griffith-museum",
+    "name": "Andy Griffith Museum",
+    "address": "218 Rockford St",
+    "city": "Mount Airy",
     "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5998002,
-      35.581072
-    ],
-    "layers": [
-      "coffee",
-      "cannabis"
-    ],
+    "zip": "27030",
+    "coordinates": [-80.6060, 36.5024],
+    "layers": ["attractions"],
     "zone": "south",
-    "rating": 4.6,
-    "reviewCount": 82,
-    "hours": {
-      "mon": "8AM\u201310PM",
-      "tue": "8AM\u201310PM",
-      "wed": "8AM\u201310PM",
-      "thu": "8AM\u201310PM",
-      "fri": "8AM\u201310PM",
-      "sat": "8AM\u201310PM",
-      "sun": "8AM\u201310PM",
-      "note": "Latest hours of any coffee stop on the strip. Inside Asheville Dispensary."
-    },
     "passportStop": 8,
     "passportType": "core",
-    "streetSide": "south",
-    "selloColor": "#5c1a2a",
-    "selloPersonality": "botanical leaf, slightly mystical, wellness energy",
+    "streetSide": "east",
+    "selloColor": "#5C4033",
     "hygge": false,
     "stamp": {
-      "welcomeLine": "You found Plant Bar \ud83c\udf38",
-      "subLine": "Wellness drinks, zero-proof cocktails, and the latest hours on Haywood."
+      "welcomeLine": "The man, not the character.",
+      "subLine": "Andy Griffith grew up one mile from this building and came back his whole life."
     },
     "story": {
-      "headline": "Coffee, tea, cacao, and things you won't find anywhere else on the strip.",
-      "body": "Plant Bar lives inside Asheville Dispensary \u2014 a wellness coffee and tea bar with a philosophy. Gong Fu Cha traditional Chinese tea service. Single-origin cacao. Zero-proof cocktails. Blue lotus drinks. The heated porch hosts craft nights and live music. Open until 10pm every day \u2014 the evening option the strip needed.",
-      "insiderTip": "The Blue Lotus Cacao iced with oat milk is unlike anything else on Haywood Road. Order it once and you'll understand why people come back specifically for it.",
-      "parkingNote": "Shared parking with dispensary. Usually available."
+      "headline": "What the Archive Holds",
+      "body": "The collection started as a private archive. Andy Griffith's personal memorabilia — scripts, costumes, photos — ended up here. The centerpiece is a Mayberry-replica jail cell. The real Andy grew up a mile from this building and returned to Mount Airy his entire life. This museum is the town's honest attempt to hold onto what he meant.",
+      "insiderTip": "The exhibit on Andy's guitar playing is underrated. He recorded music most people have never heard."
     },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [
-      "odds-cafe",
-      "izzys-coffee-house"
-    ],
-    "multiLayer": true,
-    "instagram": "visitplantbar",
-    "website": "visitplantbar.com",
-    "placeId": "ChIJoQJReSCNWYgRbpBVWw1NvUs",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "asheville-dispensary",
-    "name": "Asheville Dispensary",
-    "address": "919 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.5998002,
-      35.581072
-    ],
-    "layers": [
-      "cannabis"
-    ],
-    "zone": "south",
-    "rating": 4.7,
-    "reviewCount": 90,
     "hours": {
-      "mon": "8AM\u201310PM",
-      "tue": "8AM\u201310PM",
-      "wed": "8AM\u201310PM",
-      "thu": "8AM\u201310PM",
-      "fri": "8AM\u201310PM",
-      "sat": "8AM\u201310PM",
-      "sun": "8AM\u201310PM",
-      "note": "Plant Bar coffee shop is inside. THCA flower, Delta 9 edibles, CBD."
+      "mon": "9AM–5PM",
+      "tue": "9AM–5PM",
+      "wed": "9AM–5PM",
+      "thu": "9AM–5PM",
+      "fri": "9AM–5PM",
+      "sat": "9AM–5PM",
+      "sun": "1PM–5PM",
+      "note": "Last admission 30 minutes before closing."
     },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#3A7A3A",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "Premium cannabinoids, organic sourcing, and Plant Bar inside.",
-      "body": "Asheville Dispensary is the flagship \u2014 THCA flower, Delta 9 gummies, CBD products, all lab-tested and organic. Plant Bar coffee and tea operates inside the same space. Open until 10PM daily.",
-      "insiderTip": "The staff are genuinely knowledgeable and not pushy. Ask questions \u2014 they have real answers.",
-      "parkingNote": "Shared parking available."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "avldispensary",
-    "website": "avldispensary.com",
+    "instagram": null,
+    "website": null,
     "placeId": null,
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
+    "photos": [],
+    "_todo": "Placeholder — verify Andy Griffith Museum hours, confirm music exhibit detail, add official website and instagram"
   },
   {
-    "id": "izzys-coffee-house",
-    "name": "Izzy's Coffee House",
-    "address": "976 Haywood Rd",
-    "city": "Asheville",
+    "id": "angry-troll",
+    "name": "Angry Troll Brewing",
+    "address": "308 N Main St",
+    "city": "Mount Airy",
     "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.6024861,
-      35.5810245
-    ],
-    "layers": [
-      "coffee"
-    ],
+    "zip": "27030",
+    "coordinates": [-80.6068, 36.5055],
+    "layers": ["bars"],
     "zone": "south",
-    "rating": 4.5,
-    "reviewCount": 450,
-    "hours": {
-      "mon": "7:30AM\u20136PM",
-      "tue": "7:30AM\u20136PM",
-      "wed": "7:30AM\u20136PM",
-      "thu": "7:30AM\u20136PM",
-      "fri": "7:30AM\u20136PM",
-      "sat": "7:30AM\u20136PM",
-      "sun": "7:30AM\u20136PM",
-      "note": "The westernmost stop. End of the road."
-    },
     "passportStop": 9,
     "passportType": "core",
-    "streetSide": "north",
-    "selloColor": "#3b1f0a",
-    "selloPersonality": "tiny yellow house outline, hand-drawn, end of the road energy",
+    "streetSide": "east",
+    "selloColor": "#4A3728",
     "hygge": false,
     "stamp": {
-      "welcomeLine": "You walked Haywood Road \ud83c\udfe1",
-      "subLine": "The little yellow house at the end of the line. You made it."
+      "welcomeLine": "Stone Faced IPA. Named for the granite.",
+      "subLine": "Worth the extra blocks north. Trust this."
     },
     "story": {
-      "headline": "The end of the road. The little yellow house. The everything bagel.",
-      "body": "Izzy's sits at 976 Haywood \u2014 past the lumber yard, past the breweries, at the far western reach of the strip. Creaky floors. Just-right morning light. A cult following for the everything bagel with habanero cranberry cream cheese. A mug you'll want to take home. This is where Haywood Road ends.",
-      "insiderTip": "The habanero cranberry cream cheese on an everything bagel. That's the order. That's been the order for years. Trust it.",
-      "parkingNote": "Street parking. West end is quieter \u2014 easier to find a spot."
+      "headline": "Where the Granite Industry Left Off",
+      "body": "The Angry Troll opened after the granite industry cleared out of this stretch of N Main. The building still has the wide-plank floors and exposed stone walls from its mill-era life. The beer names are irreverent — Mayberry Lager, Stone Faced IPA — but the brewing is serious. Worth the extra blocks north.",
+      "insiderTip": "The Stone Faced IPA is named for the granite. Order it cold and ask about the building."
     },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
+    "hours": {
+      "mon": "closed",
+      "tue": "3PM–10PM",
+      "wed": "3PM–10PM",
+      "thu": "3PM–10PM",
+      "fri": "3PM–11PM",
+      "sat": "12PM–11PM",
+      "sun": "12PM–8PM",
+      "note": "Food truck schedule varies — check their Instagram."
     },
-    "nearbyPassportStops": [
-      "plant-bar",
-      "firestorm-books-coffee"
-    ],
-    "multiLayer": false,
-    "instagram": "izzyscoffeehouse",
+    "instagram": null,
     "website": null,
-    "placeId": "ChIJDQ8X4oqMWYgRG5YXW9qVUO4",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
+    "placeId": null,
+    "photos": [],
+    "_todo": "Placeholder — verify Angry Troll hours and beer names, add instagram/website, confirm building history detail"
   },
   {
-    "id": "firestorm-books-coffee",
-    "name": "Firestorm Books & Coffee",
-    "address": "1022 Haywood Rd",
-    "city": "Asheville",
+    "id": "will-monday-house",
+    "name": "Will Monday House",
+    "address": "1023 N Main St",
+    "city": "Mount Airy",
     "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.6043,
-      35.5815
-    ],
-    "layers": [
-      "coffee",
-      "books"
-    ],
+    "zip": "27030",
+    "coordinates": [-80.6055, 36.5155],
+    "layers": ["historic"],
     "zone": "south",
-    "rating": 4.4,
-    "reviewCount": 54,
+    "passportStop": 10,
+    "passportType": "core",
+    "streetSide": "east",
+    "selloColor": "#B8893A",
+    "hygge": true,
+    "stamp": {
+      "welcomeLine": "Circa 1900. End of the line.",
+      "subLine": "Brick, granite, porch. This is where the walk ends."
+    },
+    "story": {
+      "headline": "1023 North Main",
+      "body": "Will Monday built this Craftsman bungalow around 1900. The granite retaining wall along the sidewalk is Mount Airy stone — the same granite this town has been cutting since the 1880s. The porch looks south down N Main toward the historic district. The house has been carefully restored and is currently available as a short-term rental, long-term rental, or private residence.",
+      "insiderTip": "View from the sidewalk only. Please respect the property and neighbors."
+    },
     "hours": {
       "mon": "closed",
       "tue": "closed",
-      "wed": "12PM\u20137PM",
-      "thu": "12PM\u20137PM",
-      "fri": "12PM\u20137PM",
-      "sat": "10AM\u20138PM",
-      "sun": "10AM\u20136PM",
-      "note": "Opens later \u2014 afternoon and evening energy. Vegan caf\u00e9 inside."
+      "wed": "closed",
+      "thu": "closed",
+      "fri": "closed",
+      "sat": "closed",
+      "sun": "closed",
+      "note": "Private residence. View from the sidewalk only. Not open to the public."
     },
-    "passportStop": null,
-    "passportType": "bonus",
-    "passportBonusNumber": 3,
-    "selloColor": "#1a3a6b",
-    "selloPersonality": "raised fist holding a coffee cup, worker-owned energy",
-    "hygge": false,
-    "stamp": {
-      "welcomeLine": "You found Firestorm \ud83d\udcd6",
-      "subLine": "Worker-owned since 2008. The most political coffee on Haywood Road."
-    },
-    "story": {
-      "headline": "Anti-capitalist bookstore. Vegan caf\u00e9. Community event space. All one thing.",
-      "body": "Firestorm has been on Haywood Road since 2015 \u2014 worker-owned, LGBTQ-run collective, radical book selection, full vegan espresso bar. Zagat called it one of the 10 Coolest Independent Coffee Shops in the US. The event calendar is always full. The politics are on the shelf next to the children's books. This is West Asheville at its most itself.",
-      "insiderTip": "Check the event calendar before you go. Book clubs, film screenings, political teach-ins, local musicians \u2014 there's usually something happening. The coffee is good. The conversation is better.",
-      "parkingNote": "Street parking. Far west end \u2014 quieter than you'd expect."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [
-      "izzys-coffee-house",
-      "mocha-box-coffee"
-    ],
-    "multiLayer": true,
-    "instagram": "firestormbooks",
-    "website": "firestormbooks.com",
-    "placeId": null,
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "diatribe-brewing",
-    "name": "Diatribe Brewing Co.",
-    "address": "1042 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.6043182,
-      35.5815453
-    ],
-    "layers": [
-      "bars"
-    ],
-    "zone": "south",
-    "rating": 4.9,
-    "reviewCount": 75,
-    "hours": {
-      "mon": "3PM\u20139:30PM",
-      "tue": "3PM\u20139:30PM",
-      "wed": "3PM\u20139:30PM",
-      "thu": "3PM\u20139:30PM",
-      "fri": "12PM\u20139:30PM",
-      "sat": "12PM\u20139:30PM",
-      "sun": "12PM\u20138:30PM",
-      "note": "2025 World Beer Cup gold medal. Best new brewery in the US per VinePair."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#2A6090",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "2025 World Beer Cup gold. Best new brewery in the US. On Haywood Road.",
-      "body": "Dave is a Master-ranked beer judge who won hundreds of medals as a homebrewer before opening Diatribe. The Czech pilsners and German lagers are technically flawless. The Chocolate Porter won gold at the 2025 World Beer Cup. Betty runs the taproom with the same precision Dave brings to the brewhouse.",
-      "insiderTip": "The Mliko pour of the Czech Dark \u2014 a Czech foam-forward pour you almost never see outside of Prague. Ask for it if it's available. The mole stout with roasted marshmallow on top when it's on.",
-      "parkingNote": "Own parking spots plus W Greenbriar street parking."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "diatribebrewing",
-    "website": "diatribebrewing.com",
-    "placeId": "ChIJbcu7iRuNWYgRbfGvjIKYxE0",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "mocha-box-coffee",
-    "name": "Mocha Box Coffee",
-    "address": "1050 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.6044021,
-      35.5815509
-    ],
-    "layers": [
-      "coffee",
-      "food"
-    ],
-    "zone": "south",
-    "rating": 4.0,
-    "reviewCount": 101,
-    "hours": {
-      "mon": "7AM\u20139PM",
-      "tue": "7AM\u20139PM",
-      "wed": "7AM\u20139PM",
-      "thu": "7AM\u20139PM",
-      "fri": "7AM\u201310PM",
-      "sat": "7AM\u201310PM",
-      "sun": "7AM\u20139PM",
-      "note": "Late hours. Dedicated parking lot \u2014 rare on Haywood."
-    },
-    "passportStop": null,
-    "passportType": "bonus",
-    "passportBonusNumber": 4,
-    "selloColor": "#6b3f1e",
-    "selloPersonality": "ornate Yemeni coffee vessel, Middle Eastern geometric border",
-    "hygge": false,
-    "stamp": {
-      "welcomeLine": "You found Mocha Box \u2615",
-      "subLine": "Yemeni coffee culture on Haywood Road. The mofawar will surprise you."
-    },
-    "story": {
-      "headline": "The most distinct cup on the strip. Yemeni coffee with cardamom.",
-      "body": "Mocha Box brings something genuinely different to Haywood Road \u2014 Yemeni and Middle Eastern coffee culture, mofawar with cardamom, Turkish coffee, pistachio lattes, chicken shawarma, realistic fruit pastries. Crystal chandeliers. A dedicated parking lot. Still finding its footing on the reviews but the regulars who found it come back every week.",
-      "insiderTip": "The mofawar is the order \u2014 traditional Yemeni coffee with cardamom. Order it once before you decide what you think about coffee. The matcha drinks are also unexpectedly excellent.",
-      "parkingNote": "Dedicated lot \u2014 the only coffee stop on Haywood with its own parking."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [
-      "firestorm-books-coffee",
-      "izzys-coffee-house"
-    ],
-    "multiLayer": true,
-    "instagram": "mochaboxavl",
+    "instagram": null,
     "website": null,
-    "placeId": "ChIJbWd4AQCNWYgRc6EYhN_oKEM",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "leos-house-of-thirst",
-    "name": "Leo's House of Thirst",
-    "address": "1055 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.6045504,
-      35.5823954
-    ],
-    "layers": [
-      "bars"
-    ],
-    "zone": "south",
-    "rating": 4.7,
-    "reviewCount": 293,
-    "hours": {
-      "mon": "4PM\u20139PM",
-      "tue": "4PM\u20139PM",
-      "wed": "4PM\u20139PM",
-      "thu": "4PM\u20139PM",
-      "fri": "12PM\u201310PM",
-      "sat": "10AM\u201310PM",
-      "sun": "10AM\u20139PM",
-      "note": "Rotating seasonal menu. Exceptional wine list. Small plates."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#2A6090",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "Wine bar with small plates. Rotating menu that never feels the same twice.",
-      "body": "Leo's is a wine bar first \u2014 the food is excellent but the wine list is the reason regulars come back. Rotating seasonal menu means every visit is different. The deviled eggs, the pork belly, the pasta with short ribs \u2014 all outstanding. The staff is slightly aloof in the good way.",
-      "insiderTip": "Tuesday tap wine specials. The deviled eggs are always on and always worth it. Sit at the bar if you can \u2014 better conversation.",
-      "parkingNote": "Next to Drawing Board Tattoo. Street parking."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "leosavl",
-    "website": null,
-    "placeId": "ChIJY5oBL9aNWYgRMle9Jx5CQcE",
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
-  },
-  {
-    "id": "drawing-board-tattoo",
-    "name": "Drawing Board Tattoo",
-    "address": "1061 Haywood Rd",
-    "city": "Asheville",
-    "state": "NC",
-    "zip": "28806",
-    "coordinates": [
-      -82.6045,
-      35.582
-    ],
-    "layers": [
-      "tattoo"
-    ],
-    "zone": "south",
-    "rating": 4.8,
-    "reviewCount": 200,
-    "hours": {
-      "mon": "appointment only",
-      "tue": "10AM\u20136PM",
-      "wed": "10AM\u20136PM",
-      "thu": "10AM\u20136PM",
-      "fri": "10AM\u20136PM",
-      "sat": "10AM\u20136PM",
-      "sun": "appointment only",
-      "note": "Women-owned. Walk-ins Tue\u2013Sat. Gumball machine tattoos."
-    },
-    "passportStop": null,
-    "passportType": null,
-    "selloColor": "#7A2A7A",
-    "selloPersonality": null,
-    "hygge": false,
-    "stamp": null,
-    "story": {
-      "headline": "Women-owned safe space for all bodies. The gumball machine tattoo.",
-      "body": "Drawing Board is owned and operated by women \u2014 the shop atmosphere reflects that in how comfortable it feels. The gumball machine dispensing random flash tattoo designs is a West Asheville-worthy invention. Walk-ins welcome Tuesday through Saturday.",
-      "insiderTip": "The gumball machine tattoo is $50\u201380 and genuinely fun. Second floor entrance \u2014 go around back off W Greenbriar.",
-      "parkingNote": "Parking lot on left off W Greenbriar. Rear of red brick building. Second floor entrance."
-    },
-    "offer": {
-      "active": false,
-      "type": "verbal",
-      "text": "",
-      "reward": ""
-    },
-    "nearbyPassportStops": [],
-    "multiLayer": false,
-    "instagram": "drawingboardtattoo",
-    "website": "drawingboardtattoo.com",
     "placeId": null,
-    "status": "confirmed-open",
-    "lastVerified": "2026-03-15"
+    "photos": [
+      "will-monday-house-exterior.jpg",
+      "will-monday-house-exterior-2.jpg",
+      "will-monday-house-detail.jpg"
+    ]
   }
 ]
