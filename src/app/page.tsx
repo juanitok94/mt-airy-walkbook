@@ -161,7 +161,6 @@ export default function Home() {
             🕯 Hidden Collection
           </p>
           <p className="font-serif text-lg font-bold text-[#3b1f0a]">
-            The Songbook Five
           </p>
           <p className="font-serif italic text-sm text-[#6b3f1e] mt-1 leading-relaxed">
             Five places where Mount Airy's story lives in the walls.
