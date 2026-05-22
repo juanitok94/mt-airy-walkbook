@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mount Airy Walkbook · Sample · Peachy Kean DevOps</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&family=Crimson+Pro:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg:       #f5edd8;
+      --surface:  #fffcf5;
+      --border:   #e0cdaa;
+      --primary:  #6b3f1e;
+      --accent:   #c8973a;
+      --text:     #3b1f0a;
+      --muted:    #8a6040;
+      --badge-bg: rgba(107,63,30,0.09);
+      --badge-fg: #6b3f1e;
+      --badge-bd: rgba(107,63,30,0.18);
+      --shadow:   rgba(60,30,0,0.08);
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--text); font-family: 'Crimson Pro', Georgia, serif; font-size: 16px; line-height: 1.6; }
+
+    /* HERO */
+    .hero { text-align: center; padding: 3.5rem 1.5rem 3rem; background: var(--primary); border-bottom: 4px solid var(--accent); }
+    .hero-eyebrow { font-family: 'IBM Plex Mono', monospace; font-size: 0.6rem; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(255,255,255,0.45); margin-bottom: 1rem; }
+    .hero-title { font-family: 'Playfair Display', Georgia, serif; font-size: clamp(2rem, 8vw, 4rem); color: #fff; line-height: 1.1; margin-bottom: 0.4rem; }
+    .hero-street { font-family: 'IBM Plex Mono', monospace; font-size: 0.7rem; letter-spacing: 0.16em; color: rgba(255,255,255,0.45); text-transform: uppercase; margin-bottom: 0.75rem; }
+    .hero-tagline { font-family: 'Crimson Pro', Georgia, serif; font-style: italic; font-size: 1.05rem; color: rgba(255,255,255,0.6); max-width: 34rem; margin: 0 auto 1.75rem; }
+    .hero-cta { display: inline-block; padding: 0.6rem 1.5rem; background: var(--accent); color: var(--text); font-family: 'IBM Plex Mono', monospace; font-size: 0.65rem; letter-spacing: 0.14em; text-transform: uppercase; text-decoration: none; font-weight: 500; }
+    .hero-cta:hover { opacity: 0.85; }
+
+    /* PITCH */
+    .pitch { max-width: 50rem; margin: 0 auto; padding: 2.5rem 1.5rem 2rem; text-align: center; border-bottom: 1px solid var(--border); }
+    .pitch h2 { font-family: 'Playfair Display', Georgia, serif; font-size: 1.55rem; color: var(--text); margin-bottom: 0.65rem; }
+    .pitch p { font-size: 1.05rem; color: var(--muted); max-width: 36rem; margin: 0 auto 1.5rem; }
+    .pitch-stats { display: flex; justify-content: center; gap: 2.5rem; flex-wrap: wrap; }
+    .stat-num { font-family: 'Playfair Display', serif; font-size: 2.2rem; color: var(--primary); line-height: 1; }
+    .stat-lbl { font-family: 'IBM Plex Mono', monospace; font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); }
+
+    /* FILTERS */
+    .filters { position: sticky; top: 0; z-index: 10; background: var(--bg); border-bottom: 1px solid var(--border); padding: 0.7rem 1.25rem; display: flex; gap: 0.4rem; overflow-x: auto; scrollbar-width: none; }
+    .filters::-webkit-scrollbar { display: none; }
+    .filter-btn { font-family: 'IBM Plex Mono', monospace; font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.3rem 0.7rem; border: 1px solid var(--border); background: var(--surface); color: var(--muted); cursor: pointer; white-space: nowrap; transition: all 0.12s; }
+    .filter-btn:hover { color: var(--primary); border-color: var(--primary); }
+    .filter-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+
+    /* CARDS */
+    .cards { max-width: 74rem; margin: 0 auto; padding: 1.75rem 1.25rem 3rem; display: grid; grid-template-columns: repeat(auto-fill, minmax(268px, 1fr)); gap: 1.1rem; }
+    .card { background: var(--surface); border: 1px solid var(--border); padding: 1.1rem 1.2rem 1.1rem; transition: transform 0.12s, box-shadow 0.12s; }
+    .card:hover { transform: translateY(-2px); box-shadow: 0 4px 18px var(--shadow); }
+    .card-bar { height: 3px; margin: -1.1rem -1.2rem 0.9rem; }
+    .card-stop { font-family: 'IBM Plex Mono', monospace; font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--muted); margin-bottom: 0.3rem; }
+    .card-name { font-family: 'Playfair Display', Georgia, serif; font-size: 1.15rem; color: var(--text); line-height: 1.2; margin-bottom: 0.2rem; }
+    .card-addr { font-family: 'IBM Plex Mono', monospace; font-size: 0.6rem; color: var(--muted); margin-bottom: 0.7rem; }
+    .badges { display: flex; flex-wrap: wrap; gap: 0.3rem; margin-bottom: 0.65rem; }
+    .badge { font-family: 'IBM Plex Mono', monospace; font-size: 0.56rem; letter-spacing: 0.07em; text-transform: uppercase; padding: 0.18rem 0.45rem; background: var(--badge-bg); color: var(--badge-fg); border: 1px solid var(--badge-bd); }
+    .card-hours { font-size: 0.82rem; color: var(--muted); margin-bottom: 0.5rem; }
+    .card-tip { font-style: italic; font-size: 0.87rem; color: var(--text); border-left: 2px solid var(--accent); padding-left: 0.6rem; margin-bottom: 0.6rem; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .card-meta { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.4rem; }
+    .card-rating { font-family: 'IBM Plex Mono', monospace; font-size: 0.6rem; color: var(--muted); }
+    .card-links { display: flex; gap: 0.65rem; }
+    .card-link { font-family: 'IBM Plex Mono', monospace; font-size: 0.58rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--primary); text-decoration: underline; text-underline-offset: 3px; }
+    .card-link:hover { opacity: 0.65; }
+
+    /* FOOTER */
+    .footer { background: var(--primary); color: rgba(255,255,255,0.55); text-align: center; padding: 2.5rem 1.5rem; border-top: 3px solid var(--accent); }
+    .footer-brand { font-family: 'Playfair Display', serif; font-size: 1.15rem; color: rgba(255,255,255,0.9); margin-bottom: 0.35rem; }
+    .footer-sub { font-family: 'IBM Plex Mono', monospace; font-size: 0.6rem; letter-spacing: 0.13em; text-transform: uppercase; margin-bottom: 1.1rem; }
+    .footer-cta { display: inline-block; padding: 0.5rem 1.25rem; border: 1px solid rgba(255,255,255,0.25); color: rgba(255,255,255,0.75); font-family: 'IBM Plex Mono', monospace; font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase; text-decoration: none; }
+    .footer-cta:hover { border-color: var(--accent); color: var(--accent); }
+
+    @media (max-width: 460px) {
+      .cards { grid-template-columns: 1fr; padding: 1.25rem 1rem 2.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-eyebrow">Peachy Kean DevOps LLC · Walkbook Sample</div>
+  <h1 class="hero-title">Mount Airy Walkbook</h1>
+  <div class="hero-street">N Main Street · Mount Airy, NC 27030</div>
+  <p class="hero-tagline">Mayberry was here. It still is.</p>
+  <a href="/" class="hero-cta">Open the Full Walkbook ↗</a>
+</header>
+
+<section class="pitch">
+  <h2>What is a Walkbook?</h2>
+  <p>A mobile-first digital passport for your street. Visitors collect stamps, discover insider tips, and stay longer than they planned. No app download. No login. Just walk.</p>
+  <div class="pitch-stats">
+    <div><div class="stat-num">10</div><div class="stat-lbl">Core Stops</div></div>
+    <div><div class="stat-num">0</div><div class="stat-lbl">Ads</div></div>
+    <div><div class="stat-num">∞</div><div class="stat-lbl">Local</div></div>
+  </div>
+</section>
+
+<nav class="filters" id="filters"></nav>
+<main class="cards" id="cards"></main>
+
+<footer class="footer">
+  <div class="footer-brand">Peachy Kean DevOps, LLC</div>
+  <div class="footer-sub">Walkbooks for independent business districts</div>
+  <a href="mailto:john@peachykeandev.com" class="footer-cta">Get a Walkbook for your street →</a>
+</footer>
+
+<script>
+const SHOPS = [
+  {id:"snappy-lunch",name:"Snappy Lunch",address:"125 N Main St",city:"Mount Airy",state:"NC",layers:["restaurants"],passportStop:1,selloColor:"#8B4513",rating:null,instagram:null,website:null,hours:{mon:"5:45AM–1:45PM",tue:"5:45AM–1:45PM",wed:"5:45AM–1:45PM",thu:"5:45AM–1:45PM",fri:"5:45AM–1:45PM",sat:"5:45AM–1:15PM",sun:"closed"},tip:"Get there before 10:30 or the pork chop runs out. Every day. Ask anyone."},
+  {id:"floyds-barber",name:"Floyd's City Barber Shop",address:"129 N Main St",city:"Mount Airy",state:"NC",layers:["attractions"],passportStop:2,selloColor:"#2F4F4F",rating:null,instagram:null,website:null,hours:{mon:"closed",tue:"7AM–5PM",wed:"7AM–5PM",thu:"7AM–5PM",fri:"7AM–5PM",sat:"7AM–3PM",sun:"closed"},tip:"Walk in, get a haircut, tip well. The conversation is included."},
+  {id:"opies-candy",name:"Opie's Candy Store",address:"135 N Main St",city:"Mount Airy",state:"NC",layers:["shops"],passportStop:3,selloColor:"#B8893A",rating:null,instagram:null,website:null,hours:{mon:"10AM–5PM",tue:"10AM–5PM",wed:"10AM–5PM",thu:"10AM–5PM",fri:"10AM–5PM",sat:"10AM–5PM",sun:"11AM–4PM"},tip:"The peanut butter fudge is made on-site. Get a half-pound."},
+  {id:"pages-books",name:"Pages Books & Coffee",address:"192 N Main St",city:"Mount Airy",state:"NC",layers:["coffee","shops"],passportStop:4,selloColor:"#4A6741",rating:null,instagram:null,website:null,hours:{mon:"8AM–6PM",tue:"8AM–6PM",wed:"8AM–6PM",thu:"8AM–6PM",fri:"8AM–6PM",sat:"8AM–6PM",sun:"10AM–4PM"},tip:"Check the local history shelf in the back corner. There's a self-published Mount Airy timeline you won't find anywhere else."},
+  {id:"barneys-cafe",name:"Barney's Cafe",address:"206 N Main St",city:"Mount Airy",state:"NC",layers:["restaurants"],passportStop:5,selloColor:"#6B3A2E",rating:null,instagram:null,website:null,hours:{mon:"6AM–3PM",tue:"6AM–3PM",wed:"6AM–3PM",thu:"6AM–3PM",fri:"6AM–3PM",sat:"6AM–3PM",sun:"7AM–2PM"},tip:"Order the chicken biscuit and whatever pie is left at the end of the day."},
+  {id:"thirsty-souls",name:"Thirsty Souls Community Brewing",address:"238 Market St",city:"Mount Airy",state:"NC",layers:["bars"],passportStop:6,selloColor:"#8B3A2E",rating:null,instagram:null,website:null,hours:{mon:"closed",tue:"3PM–9PM",wed:"3PM–9PM",thu:"3PM–9PM",fri:"3PM–10PM",sat:"12PM–10PM",sun:"12PM–8PM"},tip:"Order the Scandinavian salmon. Cucumber, cream cheese, lox, capers. In a brewery in North Carolina. That's the whole story."},
+  {id:"balladeer-hotel",name:"The Balladeer Hotel",address:"239 Willow St",city:"Mount Airy",state:"NC",layers:["lodging","music"],passportStop:7,selloColor:"#3F5E3A",rating:null,instagram:null,website:null,hours:{mon:"24 hours",tue:"24 hours",wed:"24 hours",thu:"24 hours",fri:"24 hours",sat:"24 hours",sun:"24 hours"},tip:"Ask about the vinyl library. The Doc Watson and Donna Fargo records are not decoration."},
+  {id:"andy-griffith-museum",name:"Andy Griffith Museum",address:"218 Rockford St",city:"Mount Airy",state:"NC",layers:["attractions","museums"],passportStop:8,selloColor:"#5C4033",rating:null,instagram:null,website:null,hours:{mon:"9AM–5PM",tue:"9AM–5PM",wed:"9AM–5PM",thu:"9AM–5PM",fri:"9AM–5PM",sat:"9AM–5PM",sun:"1PM–5PM"},tip:"The exhibit on Andy's guitar playing is underrated. He recorded music most people have never heard."},
+  {id:"angry-troll",name:"Angry Troll Brewing",address:"308 N Main St",city:"Mount Airy",state:"NC",layers:["bars"],passportStop:9,selloColor:"#4A3728",rating:null,instagram:null,website:null,hours:{mon:"closed",tue:"3PM–10PM",wed:"3PM–10PM",thu:"3PM–10PM",fri:"3PM–11PM",sat:"12PM–11PM",sun:"12PM–8PM"},tip:"The Stone Faced IPA is named for the granite. Order it cold and ask about the building."},
+  {id:"will-monday-house",name:"Will Monday House",address:"1023 N Main St",city:"Mount Airy",state:"NC",layers:["historic"],passportStop:10,selloColor:"#B8893A",rating:null,instagram:null,website:null,hours:{mon:"closed",tue:"closed",wed:"closed",thu:"closed",fri:"closed",sat:"closed",sun:"closed"},tip:"View from the sidewalk only. The granite retaining wall is Mount Airy stone — the same granite this town has been cutting since the 1880s."}
+];
+
+const LABELS = {coffee:"☕ Coffee",restaurants:"🍽 Food",bars:"🍺 Bar",breweries:"🍻 Brewery",music:"🎵 Music",arts:"🎨 Arts",galleries:"🖼 Gallery",museums:"🏛 Museum",attractions:"⭐ Must-See",shops:"🛍 Shop",history:"📜 History",outdoors:"🏔 Outdoors",bakery:"🥐 Bakery",wineries:"🍷 Winery",lodging:"🛏 Lodging",historic:"🏠 Historic",food:"🍜 Food",cannabis:"🌿 Wellness"};
+
+function hrs(h) {
+  const days = ['mon','tue','wed','thu','fri','sat','sun'];
+  const open = days.filter(d => h[d] && !h[d].toLowerCase().includes('closed') && !h[d].toLowerCase().includes('private'));
+  if (!open.length) return '— see website';
+  const times = [...new Set(open.map(d => h[d]))];
+  if (times.length === 1 && open.length === 7) return 'Daily · ' + times[0];
+  if (times.length === 1) return open.length + ' days/wk · ' + times[0];
+  return open.length + ' days/wk · from ' + h[open[0]];
+}
+
+function render(filter) {
+  const list = filter === 'all' ? SHOPS : SHOPS.filter(s => s.layers.includes(filter));
+  document.getElementById('cards').innerHTML = list.map(s => {
+    const links = [
+      s.website ? `<a class="card-link" href="${s.website.startsWith('http')?s.website:'https://'+s.website}" target="_blank" rel="noopener">Website ↗</a>` : '',
+      s.instagram ? `<a class="card-link" href="https://instagram.com/${s.instagram}" target="_blank" rel="noopener">Instagram ↗</a>` : ''
+    ].filter(Boolean).join('');
+    return `<article class="card">
+      <div class="card-bar" style="background:${s.selloColor||'var(--accent)'}"></div>
+      ${s.passportStop ? `<div class="card-stop">Stop ${s.passportStop} of 10</div>` : ''}
+      <h2 class="card-name">${s.name}</h2>
+      <div class="card-addr">${s.address} · ${s.city}, ${s.state}</div>
+      <div class="badges">${s.layers.map(l=>`<span class="badge">${LABELS[l]||l}</span>`).join('')}</div>
+      <div class="card-hours">⏱ ${hrs(s.hours)}</div>
+      ${s.tip ? `<div class="card-tip">${s.tip}</div>` : ''}
+      <div class="card-meta">
+        ${s.rating ? `<span class="card-rating">★ ${s.rating.toFixed(1)}</span>` : '<span></span>'}
+        ${links ? `<div class="card-links">${links}</div>` : ''}
+      </div>
+    </article>`;
+  }).join('');
+}
+
+function init() {
+  const layers = [...new Set(SHOPS.flatMap(s => s.layers))].filter(l => LABELS[l]);
+  const nav = document.getElementById('filters');
+  nav.innerHTML = `<button class="filter-btn active" data-f="all">All (${SHOPS.length})</button>` +
+    layers.map(l => {
+      const n = SHOPS.filter(s => s.layers.includes(l)).length;
+      return `<button class="filter-btn" data-f="${l}">${LABELS[l]} (${n})</button>`;
+    }).join('');
+  nav.addEventListener('click', e => {
+    const btn = e.target.closest('.filter-btn');
+    if (!btn) return;
+    nav.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    render(btn.dataset.f);
+  });
+}
+
+init();
+render('all');
+</script>
+</body>
+</html>
