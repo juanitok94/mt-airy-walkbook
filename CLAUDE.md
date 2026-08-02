@@ -4,7 +4,7 @@
 
 ## What This Is
 Mount Airy Walkbook is a mobile-first digital walking passport
-for N Main Street, Mount Airy, NC. 11 core stops, south to north.
+for N Main Street, Mount Airy, NC. 12 core stops, south to north.
 Users walk the street, stamp each stop, discover the hidden
 Songbook Five collection. No auth, no login, localStorage only.
 
@@ -78,7 +78,7 @@ in a future pass — flagging this rather than renaming unilaterally.
    want foot traffic and to feel proud of being featured,
    not marketed at.
 
-## The 11 Core Stops (south to north)
+## The 12 Core Stops (south to north)
 | # | Shop | Street Side |
 |---|------|-------------|
 | 1 | Snappy Lunch | East |
@@ -90,13 +90,34 @@ in a future pass — flagging this rather than renaming unilaterally.
 | 7 | Kate's Cocktail Lounge | Unconfirmed — _todo |
 | 8 | The Balladeer Hotel | West |
 | 9 | Andy Griffith Museum | East |
-| 10 | Angry Troll Brewing | East |
-| 11 | Will Monday House | East |
+| 10 | Mount Airy Museum of Regional History | Unconfirmed — _todo |
+| 11 | Angry Troll Brewing | East |
+| 12 | Will Monday House | East |
 
 Stops 1–5 (zone: "north") are the "Mayberry Core" section.
-Stops 6–11 (zone: "south") are "The Second Life" section.
+Stops 6–12 (zone: "south") are "The Second Life" section.
 The zone field drives the section split on the passport and stop
 pages — it does not describe geographic north/south position.
+
+Mount Airy Museum of Regional History (Stop 10) was added August 2,
+2026 — a real four-floor regional history museum at 301 N Main St,
+housed in a restored historic mercantile building. Its zone,
+streetSide, and coordinates are inferred from Angry Troll (308 N
+Main St) as the nearest reference point, not confirmed. Hours
+genuinely conflict across sources — see its `_todo` field; call
+(336) 786-4478 to verify before publishing. Its `hygge` flag is
+`false` but that's not a considered editorial decision — open
+question for John on Songbook Five eligibility. Its `layers` match
+Andy Griffith Museum's (`attractions`) for consistency, but a
+distinct layer (e.g. `history`) might better separate a general
+regional museum from a single-person museum — not decided here.
+
+**Correction:** the Old-Time Music Heritage Hall / Fiddlers'
+Convention audio-tour fact was previously (incorrectly) attached to
+the Andy Griffith Museum's story.body. It has been moved to Mount
+Airy Museum of Regional History, which is where the Heritage Hall
+actually is — a separate building 0.3 miles away. Andy Griffith
+Museum's copy has been reverted to its original text.
 
 Kate's Cocktail Lounge (Stop 7) was added August 2, 2026 — a real,
 21+ crafted cocktail lounge at 235 Market St, next door to Thirsty
@@ -108,7 +129,7 @@ decision — it's an open question for John on whether it belongs in
 the Songbook Five.
 
 ## Bonus/Directory Stops
-None currently. shops.json ships only the 11 core stops
+None currently. shops.json ships only the 12 core stops
 (all `passportType: "core"`) — there is no bonus/directory
 layer of additional businesses yet, unlike the template project
 this was forked from.
@@ -170,7 +191,11 @@ src/
   shops.json's actual core-stop count instead
 - ✅ Badge system removed entirely (badges.json deleted, no tiers/
   thresholds). The passport page's full-completion moment ("True
-  Local") is independent of badges and still fires at 11/11 stamps.
+  Local") is independent of badges and still fires at N/N stamps.
+- ✅ Mount Airy Museum of Regional History added as Stop 10 (12 core
+  stops total); corrected a mistaken attribution where the Old-Time
+  Music Heritage Hall fact had been attached to Andy Griffith
+  Museum's story.body instead — moved to its actual home
 - ⬜ Photo library — zero real shop photos exist on disk yet
 - ⬜ _todo fields in shops.json — hours, ownership, and detail
   fact-checking still needed for most stops
@@ -233,6 +258,8 @@ harmless (nothing links to it).
 - barneys-cafe-interior.jpg
 - andy-griffith-museum-exterior.jpg
 - andy-griffith-museum-interior.jpg
+- mount-airy-regional-museum-exterior.jpg
+- mount-airy-regional-museum-interior.jpg
 - angry-troll-exterior.jpg
 - angry-troll-interior.jpg
 

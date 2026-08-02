@@ -3,13 +3,13 @@
 A digital walking passport for N Main Street — Mount Airy, NC's
 Mayberry-famous main drag.
 
-Eleven stops. One street. Walk it.
+Twelve stops. One street. Walk it.
 
 ## What this is
 
 A warmly narrated walking guide and passport game built on the
 Camino de Santiago pilgrim passport model. Collect stamps at each
-of the 11 core stops along N Main Street, from Snappy Lunch's
+of the 12 core stops along N Main Street, from Snappy Lunch's
 pork chop counter to the granite porch of the Will Monday House.
 Walk them all and become a True Local.
 
@@ -35,7 +35,7 @@ Open http://localhost:3000
 ## Data
 
 All business data lives in /src/data/
-- shops.json — 11 stops, 8 layers, full data model
+- shops.json — 12 stops, 8 layers, full data model
 - layers.json — layer definitions
 - trivia.json — per-stop trivia
 

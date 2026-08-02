@@ -367,6 +367,46 @@
     "_todo": "Placeholder — verify Andy Griffith Museum hours, confirm music exhibit detail, add official website and instagram"
   },
   {
+    "id": "mount-airy-regional-museum",
+    "name": "Mount Airy Museum of Regional History",
+    "address": "301 N Main St",
+    "city": "Mount Airy",
+    "state": "NC",
+    "zip": "27030",
+    "coordinates": [-80.6069, 36.5052],
+    "layers": ["attractions"],
+    "zone": "south",
+    "passportStop": 10,
+    "passportType": "core",
+    "streetSide": "east",
+    "selloColor": "#5A5650",
+    "hygge": false,
+    "stamp": {
+      "welcomeLine": "Stop 10. Four floors, one granite town.",
+      "subLine": "Mount Airy Museum of Regional History, a few doors from the Andy Griffith Museum."
+    },
+    "story": {
+      "headline": "Four Floors, One Regional Story",
+      "body": "Housed in a restored historic mercantile building at 301 N Main St, the Mount Airy Museum of Regional History covers four floors: Saura Indian and Native American history, the region's granite quarry — the world's largest open-surface granite quarry — colonial-era \"Hollows\" settlement history, and the Old-Time Music Heritage Hall. The Heritage Hall isn't just a static exhibit: during Mount Airy Fiddlers' Convention weekend each June, it opens for self-guided audio tours, tying this building directly to the fiddle tradition still playing live a few blocks away at Veterans Memorial Park.",
+      "insiderTip": "Ask about the granite quarry exhibit — easy to miss, but it's the whole reason this town looks the way it does."
+    },
+    "hours": {
+      "mon": "Hours TBD",
+      "tue": "Hours TBD",
+      "wed": "Hours TBD",
+      "thu": "Hours TBD",
+      "fri": "Hours TBD",
+      "sat": "Hours TBD",
+      "sun": "Hours TBD",
+      "note": "Hours conflict across sources — none confirmed. Call (336) 786-4478 to verify before visiting."
+    },
+    "instagram": null,
+    "website": null,
+    "placeId": null,
+    "photos": [],
+    "_todo": "Placeholder — brand new stop, needs full on-site verification: zone/streetSide/coordinates inferred from Angry Troll (308 N Main St) as the nearest reference point, not confirmed by survey or site visit. Hours genuinely conflict across sources — Yelp lists Mon closed, Tue–Sat 10AM–5PM; other sources list Mon–Sat 10AM–5PM with no Monday closure; Sun 1PM–4PM appears in some sources only. Do not guess — call (336) 786-4478 to confirm real hours before publishing. Layers currently match Andy Griffith Museum's (['attractions']) for consistency, but consider whether a distinct layer (e.g. 'history', separate from the existing 'historic' buildings/landmarks layer) would better differentiate a general regional museum from a single-person museum — not decided here. hygge/Songbook Five eligibility currently false — flagged for John's decision, not assumed."
+  },
+  {
     "id": "angry-troll",
     "name": "Angry Troll Brewing",
     "address": "308 N Main St",
@@ -376,7 +416,7 @@
     "coordinates": [-80.6068, 36.5055],
     "layers": ["bars"],
     "zone": "south",
-    "passportStop": 10,
+    "passportStop": 11,
     "passportType": "core",
     "streetSide": "east",
     "selloColor": "#4A3728",
@@ -416,7 +456,7 @@
     "coordinates": [-80.6055, 36.5155],
     "layers": ["historic"],
     "zone": "south",
-    "passportStop": 11,
+    "passportStop": 12,
     "passportType": "core",
     "streetSide": "east",
     "selloColor": "#B8893A",
