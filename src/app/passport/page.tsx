@@ -14,6 +14,8 @@ const coreStops = shops
   .filter(s => s.passportType === 'core')
   .sort((a, b) => a.passportStop - b.passportStop)
 
+const totalCoreStops = coreStops.length
+
 const northStops = coreStops.filter(s => s.zone === 'north')
 const southStops = coreStops.filter(s => s.zone === 'south')
 
@@ -34,7 +36,7 @@ export default function PassportPage() {
   }, [])
 
   const coreStamped = coreStops.filter(s => stamps[s.id]).length
-  const progress = Math.round((coreStamped / 10) * 100)
+  const progress = Math.round((coreStamped / totalCoreStops) * 100)
 
   // Earned badges (core type only on this page)
   const earnedBadges = badges.filter(
@@ -63,9 +65,9 @@ export default function PassportPage() {
         </h1>
         <p className="text-[#e8d9b8] text-sm italic mt-1 opacity-70">
           {coreStamped === 0 && 'No stamps yet. Time to walk.'}
-          {coreStamped > 0 && coreStamped < 10 &&
-            `${coreStamped} of 10 stamps collected`}
-          {coreStamped === 10 && 'All stamps collected. True Local.'}
+          {coreStamped > 0 && coreStamped < totalCoreStops &&
+            `${coreStamped} of ${totalCoreStops} stamps collected`}
+          {coreStamped === totalCoreStops && 'All stamps collected. True Local.'}
         </p>
       </div>
 
@@ -76,7 +78,7 @@ export default function PassportPage() {
             Progress
           </span>
           <span className="font-mono text-xs text-[#6b3f1e] font-bold">
-            {coreStamped}/10
+            {coreStamped}/{totalCoreStops}
           </span>
         </div>
         <div className="w-full h-3 bg-[#e8d9b8] rounded-full overflow-hidden border border-[#6b3f1e]/20">
@@ -84,7 +86,7 @@ export default function PassportPage() {
             className="h-full rounded-full transition-all duration-700 ease-out"
             style={{
               width: mounted ? `${progress}%` : '0%',
-              backgroundColor: coreStamped === 10 ? '#c8973a' : '#6b3f1e',
+              backgroundColor: coreStamped === totalCoreStops ? '#c8973a' : '#6b3f1e',
             }}
           />
         </div>
@@ -170,8 +172,8 @@ export default function PassportPage() {
         </div>
       </div>
 
-      {/* COMPOSTELA — 10/10 completion message */}
-      {coreStamped === 10 && (
+      {/* COMPOSTELA — full-completion message */}
+      {coreStamped === totalCoreStops && (
         <div className="max-w-lg mx-auto px-6 pb-8">
           <div className="p-6 bg-[#3b1f0a] border-2 border-[#c8973a] rounded-sm text-center">
             <p className="text-3xl mb-2">⭐</p>

@@ -114,7 +114,7 @@ export default function Home() {
           ))}
         </div>
 
-        {/* The Second Life — stops 6–10 */}
+        {/* The Second Life — stops 6–11 */}
         <p className="font-mono text-[11px] tracking-widest text-[#6b3f1e] opacity-80 uppercase mb-4 border-l-2 border-[#c8973a]/40 pl-3">
           The Second Life
         </p>

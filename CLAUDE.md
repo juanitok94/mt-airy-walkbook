@@ -4,7 +4,7 @@
 
 ## What This Is
 Mount Airy Walkbook is a mobile-first digital walking passport
-for N Main Street, Mount Airy, NC. 10 core stops, south to north.
+for N Main Street, Mount Airy, NC. 11 core stops, south to north.
 Users walk the street, stamp each stop, discover the hidden
 Songbook Five collection. No auth, no login, localStorage only.
 
@@ -59,7 +59,7 @@ Source of truth: src/app/globals.css (`:root` custom properties).
    want foot traffic and to feel proud of being featured,
    not marketed at.
 
-## The 10 Core Stops (south to north)
+## The 11 Core Stops (south to north)
 | # | Shop | Street Side |
 |---|------|-------------|
 | 1 | Snappy Lunch | East |
@@ -68,18 +68,28 @@ Source of truth: src/app/globals.css (`:root` custom properties).
 | 4 | Pages Books & Coffee | East |
 | 5 | Barney's Cafe | East |
 | 6 | Thirsty Souls Community Brewing | West |
-| 7 | The Balladeer Hotel | West |
-| 8 | Andy Griffith Museum | East |
-| 9 | Angry Troll Brewing | East |
-| 10 | Will Monday House | East |
+| 7 | Kate's Cocktail Lounge | Unconfirmed — _todo |
+| 8 | The Balladeer Hotel | West |
+| 9 | Andy Griffith Museum | East |
+| 10 | Angry Troll Brewing | East |
+| 11 | Will Monday House | East |
 
 Stops 1–5 (zone: "north") are the "Mayberry Core" section.
-Stops 6–10 (zone: "south") are "The Second Life" section.
+Stops 6–11 (zone: "south") are "The Second Life" section.
 The zone field drives the section split on the passport and stop
 pages — it does not describe geographic north/south position.
 
+Kate's Cocktail Lounge (Stop 7) was added August 2, 2026 — a real,
+21+ crafted cocktail lounge at 235 Market St, next door to Thirsty
+Souls in the Market Street Arts & Entertainment District. Its
+coordinates, streetSide, and hours are placeholder/estimated pending
+an on-site visit (see its `_todo` field in shops.json). Its `hygge`
+flag is set to `false` but that was NOT a considered editorial
+decision — it's an open question for John on whether it belongs in
+the Songbook Five.
+
 ## Bonus/Directory Stops
-None currently. shops.json ships only the 10 core stops
+None currently. shops.json ships only the 11 core stops
 (all `passportType: "core"`) — there is no bonus/directory
 layer of additional businesses yet, unlike the template project
 this was forked from.
@@ -137,6 +147,9 @@ src/
 - ✅ Legacy Haywood Hoppers strings replaced with Mount Airy content
 - ✅ Photo zone restored on stop pages with graceful missing-file
   fallback (src/components/ShopPhoto.tsx)
+- ✅ Kate's Cocktail Lounge added as Stop 7 (11 core stops total);
+  all hardcoded "10 stops" references converted to derive from
+  shops.json's actual core-stop count instead
 - ⬜ Photo library — zero real shop photos exist on disk yet
 - ⬜ _todo fields in shops.json — hours, ownership, and detail
   fact-checking still needed for most stops
@@ -150,6 +163,14 @@ src/
   project's east-west road layout and haven't been re-mapped
   to N Main Street's actual cross streets. Needs real Mount
   Airy street data before fixing — don't guess coordinates.
+- badges.json thresholds (1/4/7/10) and the "complete" badge's
+  description ("...All ten.") still target the old 10-stop count.
+  With Kate's Cocktail Lounge added, the walk is now 11 stops, so
+  the "complete" badge now fires one stop early (at 10/11) and its
+  copy is inaccurate. Left untouched deliberately — rescaling these
+  requires a human decision on whether to bump the top threshold to
+  11 or leave it as an earlier "you basically made it" milestone.
+  Confirm with John before touching badges.json.
 
 ## Photo Library
 Photos location: public/images/shops/
@@ -185,6 +206,8 @@ harmless (nothing links to it).
 - will-monday-house-detail.jpg
 
 ### Still Needed (no shops.json entry yet either)
+- kates-cocktail-lounge-exterior.jpg
+- kates-cocktail-lounge-interior.jpg
 - snappy-lunch-exterior.jpg
 - snappy-lunch-interior.jpg
 - floyds-barber-exterior.jpg

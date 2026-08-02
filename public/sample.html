@@ -93,7 +93,7 @@
   <h2>What is a Walkbook?</h2>
   <p>A mobile-first digital passport for your street. Visitors collect stamps, discover insider tips, and stay longer than they planned. No app download. No login. Just walk.</p>
   <div class="pitch-stats">
-    <div><div class="stat-num">10</div><div class="stat-lbl">Core Stops</div></div>
+    <div><div class="stat-num" id="stat-core-stops">–</div><div class="stat-lbl">Core Stops</div></div>
     <div><div class="stat-num">0</div><div class="stat-lbl">Ads</div></div>
     <div><div class="stat-num">∞</div><div class="stat-lbl">Local</div></div>
   </div>
@@ -116,10 +116,11 @@ const SHOPS = [
   {id:"pages-books",name:"Pages Books & Coffee",address:"192 N Main St",city:"Mount Airy",state:"NC",layers:["coffee","shops"],passportStop:4,selloColor:"#4A6741",rating:null,instagram:null,website:null,hours:{mon:"8AM–6PM",tue:"8AM–6PM",wed:"8AM–6PM",thu:"8AM–6PM",fri:"8AM–6PM",sat:"8AM–6PM",sun:"10AM–4PM"},tip:"Check the local history shelf in the back corner. There's a self-published Mount Airy timeline you won't find anywhere else."},
   {id:"barneys-cafe",name:"Barney's Cafe",address:"206 N Main St",city:"Mount Airy",state:"NC",layers:["restaurants"],passportStop:5,selloColor:"#6B3A2E",rating:null,instagram:null,website:null,hours:{mon:"6AM–3PM",tue:"6AM–3PM",wed:"6AM–3PM",thu:"6AM–3PM",fri:"6AM–3PM",sat:"6AM–3PM",sun:"7AM–2PM"},tip:"Order the chicken biscuit and whatever pie is left at the end of the day."},
   {id:"thirsty-souls",name:"Thirsty Souls Community Brewing",address:"238 Market St",city:"Mount Airy",state:"NC",layers:["bars"],passportStop:6,selloColor:"#8B3A2E",rating:null,instagram:null,website:null,hours:{mon:"closed",tue:"3PM–9PM",wed:"3PM–9PM",thu:"3PM–9PM",fri:"3PM–10PM",sat:"12PM–10PM",sun:"12PM–8PM"},tip:"Order the Scandinavian salmon. Cucumber, cream cheese, lox, capers. In a brewery in North Carolina. That's the whole story."},
-  {id:"balladeer-hotel",name:"The Balladeer Hotel",address:"239 Willow St",city:"Mount Airy",state:"NC",layers:["lodging","music"],passportStop:7,selloColor:"#3F5E3A",rating:null,instagram:null,website:null,hours:{mon:"24 hours",tue:"24 hours",wed:"24 hours",thu:"24 hours",fri:"24 hours",sat:"24 hours",sun:"24 hours"},tip:"Ask about the vinyl library. The Doc Watson and Donna Fargo records are not decoration."},
-  {id:"andy-griffith-museum",name:"Andy Griffith Museum",address:"218 Rockford St",city:"Mount Airy",state:"NC",layers:["attractions","museums"],passportStop:8,selloColor:"#5C4033",rating:null,instagram:null,website:null,hours:{mon:"9AM–5PM",tue:"9AM–5PM",wed:"9AM–5PM",thu:"9AM–5PM",fri:"9AM–5PM",sat:"9AM–5PM",sun:"1PM–5PM"},tip:"The exhibit on Andy's guitar playing is underrated. He recorded music most people have never heard."},
-  {id:"angry-troll",name:"Angry Troll Brewing",address:"308 N Main St",city:"Mount Airy",state:"NC",layers:["bars"],passportStop:9,selloColor:"#4A3728",rating:null,instagram:null,website:null,hours:{mon:"closed",tue:"3PM–10PM",wed:"3PM–10PM",thu:"3PM–10PM",fri:"3PM–11PM",sat:"12PM–11PM",sun:"12PM–8PM"},tip:"The Stone Faced IPA is named for the granite. Order it cold and ask about the building."},
-  {id:"will-monday-house",name:"Will Monday House",address:"1023 N Main St",city:"Mount Airy",state:"NC",layers:["historic"],passportStop:10,selloColor:"#B8893A",rating:null,instagram:null,website:null,hours:{mon:"closed",tue:"closed",wed:"closed",thu:"closed",fri:"closed",sat:"closed",sun:"closed"},tip:"View from the sidewalk only. The granite retaining wall is Mount Airy stone — the same granite this town has been cutting since the 1880s."}
+  {id:"kates-cocktail-lounge",name:"Kate's Cocktail Lounge",address:"235 Market St",city:"Mount Airy",state:"NC",layers:["bars"],passportStop:7,selloColor:"#5C2A4D",rating:null,instagram:null,website:"https://www.facebook.com/p/Kates-Cocktail-Lounge-100095231423456/",hours:{mon:"Hours TBD",tue:"Hours TBD",wed:"Hours TBD",thu:"Hours TBD",fri:"Hours TBD",sat:"Hours TBD",sun:"Hours TBD"},tip:"Find them on Facebook for hours and events — this stop is a newer addition to the walk, so double-check before you go."},
+  {id:"balladeer-hotel",name:"The Balladeer Hotel",address:"239 Willow St",city:"Mount Airy",state:"NC",layers:["lodging","music"],passportStop:8,selloColor:"#3F5E3A",rating:null,instagram:null,website:null,hours:{mon:"24 hours",tue:"24 hours",wed:"24 hours",thu:"24 hours",fri:"24 hours",sat:"24 hours",sun:"24 hours"},tip:"Ask about the vinyl library. The Doc Watson and Donna Fargo records are not decoration."},
+  {id:"andy-griffith-museum",name:"Andy Griffith Museum",address:"218 Rockford St",city:"Mount Airy",state:"NC",layers:["attractions","museums"],passportStop:9,selloColor:"#5C4033",rating:null,instagram:null,website:null,hours:{mon:"9AM–5PM",tue:"9AM–5PM",wed:"9AM–5PM",thu:"9AM–5PM",fri:"9AM–5PM",sat:"9AM–5PM",sun:"1PM–5PM"},tip:"The exhibit on Andy's guitar playing is underrated. He recorded music most people have never heard."},
+  {id:"angry-troll",name:"Angry Troll Brewing",address:"308 N Main St",city:"Mount Airy",state:"NC",layers:["bars"],passportStop:10,selloColor:"#4A3728",rating:null,instagram:null,website:null,hours:{mon:"closed",tue:"3PM–10PM",wed:"3PM–10PM",thu:"3PM–10PM",fri:"3PM–11PM",sat:"12PM–11PM",sun:"12PM–8PM"},tip:"The Stone Faced IPA is named for the granite. Order it cold and ask about the building."},
+  {id:"will-monday-house",name:"Will Monday House",address:"1023 N Main St",city:"Mount Airy",state:"NC",layers:["historic"],passportStop:11,selloColor:"#B8893A",rating:null,instagram:null,website:null,hours:{mon:"closed",tue:"closed",wed:"closed",thu:"closed",fri:"closed",sat:"closed",sun:"closed"},tip:"View from the sidewalk only. The granite retaining wall is Mount Airy stone — the same granite this town has been cutting since the 1880s."}
 ];
 
 const LABELS = {coffee:"☕ Coffee",restaurants:"🍽 Food",bars:"🍺 Bar",breweries:"🍻 Brewery",music:"🎵 Music",arts:"🎨 Arts",galleries:"🖼 Gallery",museums:"🏛 Museum",attractions:"⭐ Must-See",shops:"🛍 Shop",history:"📜 History",outdoors:"🏔 Outdoors",bakery:"🥐 Bakery",wineries:"🍷 Winery",lodging:"🛏 Lodging",historic:"🏠 Historic",food:"🍜 Food",cannabis:"🌿 Wellness"};
@@ -143,7 +144,7 @@ function render(filter) {
     ].filter(Boolean).join('');
     return `<article class="card">
       <div class="card-bar" style="background:${s.selloColor||'var(--accent)'}"></div>
-      ${s.passportStop ? `<div class="card-stop">Stop ${s.passportStop} of 10</div>` : ''}
+      ${s.passportStop ? `<div class="card-stop">Stop ${s.passportStop} of ${SHOPS.length}</div>` : ''}
       <h2 class="card-name">${s.name}</h2>
       <div class="card-addr">${s.address} · ${s.city}, ${s.state}</div>
       <div class="badges">${s.layers.map(l=>`<span class="badge">${LABELS[l]||l}</span>`).join('')}</div>
@@ -158,6 +159,7 @@ function render(filter) {
 }
 
 function init() {
+  document.getElementById('stat-core-stops').textContent = SHOPS.length;
   const layers = [...new Set(SHOPS.flatMap(s => s.layers))].filter(l => LABELS[l]);
   const nav = document.getElementById('filters');
   nav.innerHTML = `<button class="filter-btn active" data-f="all">All (${SHOPS.length})</button>` +

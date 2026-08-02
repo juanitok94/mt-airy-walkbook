@@ -16,6 +16,8 @@ const coreStops = shops
   .filter(s => s.passportType === 'core')
   .sort((a, b) => a.passportStop - b.passportStop)
 
+const totalCoreStops = coreStops.length
+
 export default function StopPage({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = use(params)
 
@@ -104,7 +106,7 @@ export default function StopPage({ params }: { params: Promise<{ slug: string }>
 
         {isCore && (
           <p className="font-mono text-[10px] tracking-widest text-white/50 uppercase mt-3">
-            Stop {shop.passportStop} of 10 · {shop.zone === 'north' ? 'Mayberry Core' : 'The Second Life'}
+            Stop {shop.passportStop} of {totalCoreStops} · {shop.zone === 'north' ? 'Mayberry Core' : 'The Second Life'}
           </p>
         )}
 

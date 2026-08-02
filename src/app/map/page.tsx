@@ -34,6 +34,9 @@ const coreStops = shops
   .filter(s => s.passportType === 'core')
   .sort((a, b) => a.passportStop - b.passportStop)
 
+const totalCoreStops = coreStops.length
+const lastCoreStopNumber = coreStops[coreStops.length - 1]?.passportStop
+
 const bonusStops = shops.filter(s => s.passportType === 'bonus')
 
 export default function MapPage() {
@@ -94,7 +97,7 @@ export default function MapPage() {
           The Map
         </h1>
         <p className="text-[#e8d9b8] text-sm italic mt-1 opacity-70">
-          10 stops. One road. Walk it.
+          {totalCoreStops} stops. One road. Walk it.
         </p>
       </div>
 
@@ -272,7 +275,7 @@ export default function MapPage() {
 
             {/* Core passport stops (largest, numbered) */}
             {coreStops.map(shop => {
-              const x = lonToPercent(shop.coordinates[0], flipped) + (shop.passportStop === 10 ? 1.5 : 0)
+              const x = lonToPercent(shop.coordinates[0], flipped) + (shop.passportStop === lastCoreStopNumber ? 1.5 : 0)
               const stamped = !!stamps[shop.id]
               // Alternate above/below road for readability
               const above = shop.passportStop % 2 === 1
@@ -493,7 +496,7 @@ export default function MapPage() {
           </h2>
           <div className="flex-1 border-t border-dashed border-[#6b3f1e] opacity-20" />
           <span className="font-mono text-[10px] text-[#6b3f1e] opacity-50">
-            {coreStamped}/10
+            {coreStamped}/{totalCoreStops}
           </span>
         </div>
 

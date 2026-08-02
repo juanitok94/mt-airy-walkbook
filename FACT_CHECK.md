@@ -1,7 +1,7 @@
 # Mount Airy Walkbook — Fact-Check Checklist
 
 Working checklist generated from the `_todo` fields in
-`src/data/shops.json`. 8 of the 10 core stops are flagged as
+`src/data/shops.json`. 9 of the 11 core stops are flagged as
 placeholder content pending human verification — in person, by
 phone, or via the business's own website/social accounts.
 
@@ -60,13 +60,33 @@ Update shops.json separately once each item is confirmed.
 - [ ] Add Instagram handle if available (currently none on file)
 - [ ] Add website if available (currently none on file)
 
-## Stop 7 — The Balladeer Hotel
+## Stop 7 — Kate's Cocktail Lounge
+235 Market St, Mount Airy, NC 27030
+
+Added August 2, 2026 — a real, 21+ crafted cocktail lounge next door
+to Thirsty Souls in the Market Street Arts & Entertainment District.
+Contact on file: katescocktails@gmail.com. Nothing in this entry
+should be treated as confirmed yet.
+
+- [ ] Verify real hours (third-party listing sites — Yelp, Checkle,
+      Wanderlog — suggest Thu–Sat 5PM–11PM, but that's unverified
+      secondhand info, not confirmed on-site or by phone; shops.json
+      currently shows "Hours TBD" for every day, deliberately not a guess)
+- [ ] Confirm exact coordinates and streetSide (currently estimated
+      from neighboring Thirsty Souls at 238 Market St — not surveyed)
+- [ ] Confirm ownership/staff and drink program details for story copy
+- [ ] Verify the Facebook link is current and correct:
+      https://www.facebook.com/p/Kates-Cocktail-Lounge-100095231423456/
+- [ ] Decide hygge/Songbook Five eligibility — currently `false`,
+      not an editorial decision, just the instructed default
+
+## Stop 8 — The Balladeer Hotel
 239 Willow St, Mount Airy, NC 27030
 
 No `_todo` field on this entry — nothing currently flagged for
 verification in shops.json.
 
-## Stop 8 — Andy Griffith Museum
+## Stop 9 — Andy Griffith Museum
 218 Rockford St, Mount Airy, NC 27030
 
 - [ ] Verify hours (currently listed: Mon–Sat 9AM–5PM, Sun 1PM–5PM; note says last admission 30 minutes before closing)
@@ -74,7 +94,7 @@ verification in shops.json.
 - [ ] Add official website
 - [ ] Add Instagram handle if available (currently none on file)
 
-## Stop 9 — Angry Troll Brewing
+## Stop 10 — Angry Troll Brewing
 308 N Main St, Mount Airy, NC 27030
 
 - [ ] Verify hours (currently listed: closed Mon, Tue–Thu 3PM–10PM, Fri 3PM–11PM, Sat 12PM–11PM, Sun 12PM–8PM; note says food truck schedule varies)
@@ -83,15 +103,17 @@ verification in shops.json.
 - [ ] Add Instagram handle if available (currently none on file)
 - [ ] Add website if available (currently none on file)
 
-## Stop 10 — Will Monday House
+## Stop 11 — Will Monday House
 1023 N Main St, Mount Airy, NC 27030
 
 No `_todo` field on this entry — nothing currently flagged for
-verification in shops.json.
+verification in shops.json. (Facts confirmed against the actual
+Airbnb listing in a prior pass: build date, check-in/check-out,
+and website.)
 
 ---
 
-**Summary:** 8 of 10 stops have open `_todo` items (all except
+**Summary:** 9 of 11 stops have open `_todo` items (all except
 The Balladeer Hotel and Will Monday House). Once a shop's items are
 confirmed, update the corresponding entry in `src/data/shops.json`
 directly and remove its `_todo` field in that same pass.

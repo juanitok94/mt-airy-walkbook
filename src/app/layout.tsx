@@ -1,6 +1,9 @@
 import type { Metadata } from 'next'
 import { Playfair_Display, Crimson_Pro, IBM_Plex_Mono } from 'next/font/google'
+import shopsData from '@/data/shops.json'
 import './globals.css'
+
+const coreStopCount = (shopsData as any[]).filter(s => s.passportType === 'core').length
 
 const playfair = Playfair_Display({
   subsets: ['latin'],
@@ -25,7 +28,7 @@ const ibmMono = IBM_Plex_Mono({
 
 export const metadata: Metadata = {
   title: 'Mount Airy Walkbook — A Walking Guide to Main Street',
-  description: 'A curated walking guide to downtown Mount Airy, NC. Ten stops from Snappy Lunch to the Will Monday House. The Balladeer, Thirsty Souls, Floyd\'s, and more.',
+  description: `A curated walking guide to downtown Mount Airy, NC. ${coreStopCount} stops from Snappy Lunch to the Will Monday House. The Balladeer, Thirsty Souls, Floyd's, and more.`,
 }
 
 export default function RootLayout({
