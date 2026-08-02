@@ -6,6 +6,7 @@ import Link from 'next/link'
 import shopsData from '@/data/shops.json'
 import triviaData from '@/data/trivia.json'
 import { getStamps, addStamp, isStamped as checkStamped, type StampRecord } from '@/lib/stamps'
+import ShopPhoto from '@/components/ShopPhoto'
 
 const shops = shopsData as any[]
 const trivia = triviaData as any[]
@@ -124,6 +125,9 @@ export default function StopPage({ params }: { params: Promise<{ slug: string }>
           </p>
         )}
       </div>
+
+      {/* PHOTO ZONE */}
+      <ShopPhoto photos={shop.photos ?? []} alt={shop.name} />
 
       <div className="max-w-lg mx-auto px-6 py-8">
 

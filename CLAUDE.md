@@ -135,7 +135,9 @@ src/
 - ✅ Map bottom sheet popup with spring animation
 - ✅ Sample one-pager and unified showcase for SMB pitch
 - ✅ Legacy Haywood Hoppers strings replaced with Mount Airy content
-- ⬜ Photo library — most stops still need exterior/interior photos
+- ✅ Photo zone restored on stop pages with graceful missing-file
+  fallback (src/components/ShopPhoto.tsx)
+- ⬜ Photo library — zero real shop photos exist on disk yet
 - ⬜ _todo fields in shops.json — hours, ownership, and detail
   fact-checking still needed for most stops
 - ⬜ Dark mode (post user testing)
@@ -154,18 +156,35 @@ Photos location: public/images/shops/
 Naming convention: {shop-id}-exterior.jpg,
 {shop-id}-interior.jpg, {shop-id}-interior-2.jpg
 
-### Current Inventory
-- thirsty-souls-interior.jpg ✅
-- thirsty-souls-detail.jpg ✅
-- balladeer-hotel-exterior.jpg ✅
-- balladeer-hotel-interior.jpg ✅
-- balladeer-hotel-interior-2.jpg ✅
-- balladeer-hotel-interior-3.jpg ✅
-- will-monday-house-exterior.jpg ✅
-- will-monday-house-exterior-2.jpg ✅
-- will-monday-house-detail.jpg ✅
+Last verified against the actual filesystem on August 2, 2026 —
+**zero shop photos currently exist on disk.** Every filename below
+was previously marked ✅ based only on being listed in shops.json's
+`photos` arrays, which was never checked against public/images/shops/.
+That was wrong. The stop page now falls back to a placeholder
+(src/components/ShopPhoto.tsx, styled with the --color-stone /
+--color-espresso tokens from globals.css) whenever a referenced
+file is missing, so this gap is cosmetic, not broken — but it does
+mean no stop currently has a real photo live on the site.
 
-### Still Needed
+### Current Inventory
+None. public/images/shops/ contains one file, `haywood-famous.jpg`,
+which is an orphaned leftover from the Haywood Hoppers template —
+it isn't referenced by any shop in this fork's shops.json and isn't
+a Mount Airy business. Safe to delete once confirmed, otherwise
+harmless (nothing links to it).
+
+### Still Needed (referenced in shops.json, missing on disk)
+- thirsty-souls-interior.jpg
+- thirsty-souls-detail.jpg
+- balladeer-hotel-exterior.jpg
+- balladeer-hotel-interior.jpg
+- balladeer-hotel-interior-2.jpg
+- balladeer-hotel-interior-3.jpg
+- will-monday-house-exterior.jpg
+- will-monday-house-exterior-2.jpg
+- will-monday-house-detail.jpg
+
+### Still Needed (no shops.json entry yet either)
 - snappy-lunch-exterior.jpg
 - snappy-lunch-interior.jpg
 - floyds-barber-exterior.jpg
@@ -180,3 +199,7 @@ Naming convention: {shop-id}-exterior.jpg,
 - andy-griffith-museum-interior.jpg
 - angry-troll-exterior.jpg
 - angry-troll-interior.jpg
+
+All of the above require an in-person photo walk or owner-supplied
+images — do not source stock or AI-generated photos of these real,
+named, operating businesses.
