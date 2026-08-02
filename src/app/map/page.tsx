@@ -87,7 +87,7 @@ export default function MapPage() {
           className="font-mono text-[10px] tracking-widest text-[#c8973a] opacity-60
                      hover:opacity-100 transition-opacity uppercase"
         >
-          ← Haywood Road Ledger
+          ← N Main Street Ledger
         </Link>
         <h1 className="font-serif text-3xl font-black text-[#f5edd8] mt-2">
           The Map
@@ -201,13 +201,13 @@ export default function MapPage() {
                     className="absolute font-mono text-[8px] tracking-widest text-[#6b3f1e] opacity-30 uppercase transition-all duration-500"
                     style={{ top: '8px', left: `${northCenter}%`, transform: 'translateX(-50%)' }}
                   >
-                    West Haywood
+                    North Main
                   </div>
                   <div
                     className="absolute font-mono text-[8px] tracking-widest text-[#6b3f1e] opacity-30 uppercase transition-all duration-500"
                     style={{ top: '8px', left: `${southCenter}%`, transform: 'translateX(-50%)' }}
                   >
-                    East Haywood
+                    South Main
                   </div>
                 </>
               )

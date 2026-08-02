@@ -185,7 +185,7 @@ export default function PassportPage() {
               This walk is yours now.
             </p>
             <p className="font-mono text-[10px] text-[#c8973a] opacity-50 mt-4 tracking-widest">
-              #HaywoodHoppers · #TrueLocal
+              #MtAiryWalkbook · #TrueLocal
             </p>
           </div>
         </div>

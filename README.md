@@ -1,16 +1,19 @@
-# Haywood Hoppers
+# Mount Airy Walkbook
 
-A digital coffee passport for Haywood Road — West Asheville's main street.
+A digital walking passport for N Main Street — Mount Airy, NC's
+Mayberry-famous main drag.
 
-Ten coffee shops. One road. Walk it.
+Ten stops. One street. Walk it.
 
 ## What this is
 
-A warmly narrated neighborhood guide and passport game built on the
-Camino de Santiago pilgrim passport model. Collect stamps at each of
-the 10 core coffee stops on Haywood Road. Earn your True Local badge.
+A warmly narrated walking guide and passport game built on the
+Camino de Santiago pilgrim passport model. Collect stamps at each
+of the 10 core stops along N Main Street, from Snappy Lunch's
+pork chop counter to the granite porch of the Will Monday House.
+Earn your True Local badge.
 
-Built with love by a seven-year West Asheville resident.
+Built on granite, rewritten in brick, remembered in song.
 
 ## Stack
 
@@ -22,8 +25,8 @@ Built with love by a seven-year West Asheville resident.
 
 ## Run locally
 
-git clone https://github.com/[yourusername]/wavl-guide.git
-cd wavl-guide
+git clone https://github.com/juanitok94/mt-airy-walkbook.git
+cd mt-airy-walkbook
 npm install
 npm run dev
 
@@ -32,7 +35,7 @@ Open http://localhost:3000
 ## Data
 
 All business data lives in /src/data/
-- shops.json — 49 stops, 9 layers, full data model
+- shops.json — 10 stops, 8 layers, full data model
 - layers.json — layer definitions
 - badges.json — badge tiers
 - trivia.json — per-stop trivia
@@ -47,4 +50,4 @@ Community corrections welcome via PR to the JSON files.
 
 ## Hashtags
 
-#HaywoodHoppers #WestAVLCoffee #AVLLocal
+#MtAiryWalkbook #TrueLocal

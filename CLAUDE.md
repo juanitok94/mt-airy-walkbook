@@ -1,18 +1,20 @@
-# Haywood Hoppers — Claude Code Project Brief
+# Mount Airy Walkbook — Claude Code Project Brief
 > John Kean · Peachy Kean DevOps LLC · Asheville, NC
-> Last updated: March 27, 2026
+> Last updated: August 2, 2026
 
 ## What This Is
-Haywood Hoppers is a mobile-first digital coffee passport
-for Haywood Road, West Asheville, NC. 10 core stops,
-east to west. Users walk the road, stamp each stop,
-discover hidden collections. No auth, no login,
-localStorage only.
+Mount Airy Walkbook is a mobile-first digital walking passport
+for N Main Street, Mount Airy, NC. 10 core stops, south to north.
+Users walk the street, stamp each stop, discover the hidden
+Songbook Five collection. No auth, no login, localStorage only.
+
+Theme: granite, Mayberry, and the town's music heritage —
+"Built on granite, rewritten in brick, remembered in song."
 
 ## Live URLs
-- Production: wavl-guide.vercel.app
-- Repo: github.com/juanitok94/wavl-guide
-- Local: localhost:3000 (npm run dev in C:\wavl-guide)
+- Production: mt-airy-walkbook.vercel.app
+- Repo: github.com/juanitok94/mt-airy-walkbook
+- Local: localhost:3000 (npm run dev in C:\mt-airy-walkbook)
 
 ## Tech Stack
 - Next.js 16 App Router
@@ -23,12 +25,12 @@ localStorage only.
 
 ## Design Principles — Non-Negotiable
 1. Hygge — warmth, slowness, belonging
-2. Camino — journey, earned progress, east to west
+2. Camino — journey, earned progress, south to north
 3. Krug — don't make me think, clarity first
 4. Mobile-first — primary user is holding a phone
-   on Haywood Road. Desktop is graceful enhancement only.
+   on N Main Street. Desktop is graceful enhancement only.
 5. Human first — if it feels like a generic app,
-   it's wrong. It should feel like West Asheville.
+   it's wrong. It should feel like Mount Airy.
 
 ## Color System — Do Not Change
 - Parchment background: #f5edd8
@@ -43,44 +45,49 @@ localStorage only.
 - IBM Plex Mono — labels, UI elements (font-mono)
 
 ## Two ICPs
-1. TOURISTS — visiting Asheville, want authentic local
-   experiences, not chains, not tourist traps.
-   Respond to discovery, walking, feeling like an insider.
-2. BUSINESS OWNERS — independent shop owners on Haywood
-   who want foot traffic and to feel proud of being
-   featured, not marketed at.
+1. TOURISTS — visiting Mount Airy for Mayberry nostalgia and
+   Andy Griffith history, want authentic local experiences,
+   not just gift shops. Respond to discovery, walking, feeling
+   like an insider rather than a bus-tour visitor.
+2. BUSINESS OWNERS — independent shop owners on N Main who
+   want foot traffic and to feel proud of being featured,
+   not marketed at.
 
-## The 10 Core Stops (east to west)
+## The 10 Core Stops (south to north)
 | # | Shop | Street Side |
 |---|------|-------------|
-| 1 | Cooperative Coffee Roasters | North |
-| 2 | BattleCat Coffee Bar | South |
-| 3 | Flora & Forage | North |
-| 4 | Haywood Famous | North |
-| 5 | Bad Manners Coffee | South |
-| 6 | Rowan Coffee | South |
-| 7 | Odd's Cafe | North |
-| 8 | Plant Bar | South |
-| 9 | Izzy's Coffee House | North |
-| 10 | West End Bakery | South |
+| 1 | Snappy Lunch | East |
+| 2 | Floyd's City Barber Shop | East |
+| 3 | Opie's Candy Store | East |
+| 4 | Pages Books & Coffee | East |
+| 5 | Barney's Cafe | East |
+| 6 | Thirsty Souls Community Brewing | West |
+| 7 | The Balladeer Hotel | West |
+| 8 | Andy Griffith Museum | East |
+| 9 | Angry Troll Brewing | East |
+| 10 | Will Monday House | East |
+
+Stops 1–5 (zone: "north") are the "Mayberry Core" section.
+Stops 6–10 (zone: "south") are "The Second Life" section.
+The zone field drives the section split on the passport and stop
+pages — it does not describe geographic north/south position.
 
 ## Bonus/Directory Stops
-- Firestorm Books & Coffee (Hygge Five anchor, Prague 1993)
-- Asheville Kava X Coffee (demoted — gas station adjacent)
-- Deep Time Coffee (demoted — open only 4 days/week)
-
-## Honorable Mentions
-- Dobra Tea West (strong candidate — tea-forward, excellent vibe)
-- Potential New Boyfriend
+None currently. shops.json ships only the 10 core stops
+(all `passportType: "core"`) — there is no bonus/directory
+layer of additional businesses yet, unlike the template project
+this was forked from.
 
 ## Core Stop Eligibility Rule
 A shop must be open minimum 5 days per week to qualify
-as a core passport stop. Coffee or tea as primary mission.
+as a core passport stop.
 
-## The Hygge Five
-A hidden collection of 5 stops where time slows down.
-Currently under revision — do not modify hygge flags
-in shops.json without confirming with John first.
+## The Songbook Five
+A hidden collection of 5 stops where time slows down (the
+`hygge: true` flag in shops.json): Snappy Lunch, Floyd's City
+Barber Shop, Thirsty Souls Community Brewing, The Balladeer
+Hotel, and Will Monday House. Do not modify hygge flags in
+shops.json without confirming with John first.
 
 ## File Structure
 src/
@@ -91,9 +98,9 @@ src/
     stop/[slug]/      — individual stop pages
   data/
     shops.json        — canonical data, source of truth
-    layers.json       — map filter layers
-    badges.json       — achievement badges
-    trivia.json       — trivia questions per stop
+    layers.json        — map filter layers
+    badges.json        — achievement badges
+    trivia.json        — trivia questions per stop
   lib/
     stamps.ts         — localStorage stamp logic
 
@@ -110,29 +117,31 @@ src/
    fix: for corrections
    refactor: for restructuring
 
-## Current Build Status (March 28, 2026)
+## Current Build Status (August 2, 2026)
 - ✅ Homepage
 - ✅ Passport page
 - ✅ Stop pages (individual)
 - ✅ Map page with flip toggle
 - ✅ Mobile-first card upgrade
-- ✅ Copy wordsmith pass (ChatGPT)
 - ✅ streetSide field added to all shops
 - ✅ Share button on stop pages
 - ✅ Progressive disclosure on stop pages
-- ✅ Shop photo zone with FPO fallback
-- ✅ Stop page I-240 zone label fix
 - ✅ Map bottom sheet popup with spring animation
-- ✅ Photo naming convention established
-- ✅ First shop owner contact (Eva, Haywood Famous)
-- ✅ Travel writer outreach (Kayleigh Ruller, Eater/Condé Nast)
-- ✅ Billy Cooley connection (Downtown Asheville Association)
-- ⬜ shops.json restructure (Flora, Dobra as core)
-- ⬜ BottomNav
-- ⬜ ChatGPT content for Flora, Dobra, Bad Manners
+- ✅ Sample one-pager and unified showcase for SMB pitch
+- ✅ Legacy Haywood Hoppers strings replaced with Mount Airy content
+- ⬜ Photo library — most stops still need exterior/interior photos
+- ⬜ _todo fields in shops.json — hours, ownership, and detail
+  fact-checking still needed for most stops
 - ⬜ Dark mode (post user testing)
-- ⬜ Shop photos (after photo walk)
 - ⬜ Progress visualization on passport page
+
+## Known Follow-Ups (not yet in scope)
+- map/page.tsx still references "Riverview Dr" and "Patton Ave"
+  as secondary street labels, and the flip toggle reads
+  "East → / West →" — these are leftover from the template
+  project's east-west road layout and haven't been re-mapped
+  to N Main Street's actual cross streets. Needs real Mount
+  Airy street data before fixing — don't guess coordinates.
 
 ## Photo Library
 Photos location: public/images/shops/
@@ -140,30 +149,28 @@ Naming convention: {shop-id}-exterior.jpg,
 {shop-id}-interior.jpg, {shop-id}-interior-2.jpg
 
 ### Current Inventory
-- flora-forage-exterior.jpg ✅
-- flora-forage-interior.jpg ✅
-- flora-forage-interior-2.jpg ✅
-- flora-forage-interior-3.jpg ✅
-- haywood-famous-exterior.jpg ✅
-- haywood-famous-interior.jpg ✅
-- owl-bakery-exterior.jpg ✅
-- owl-bakery-interior.jpg (FPO) ✅
-- cooperative-coffee-roasters-exterior.jpg ✅
-- cooperative-coffee-roasters-interior.jpg (FPO) ✅
+- thirsty-souls-interior.jpg ✅
+- thirsty-souls-detail.jpg ✅
+- balladeer-hotel-exterior.jpg ✅
+- balladeer-hotel-interior.jpg ✅
+- balladeer-hotel-interior-2.jpg ✅
+- balladeer-hotel-interior-3.jpg ✅
+- will-monday-house-exterior.jpg ✅
+- will-monday-house-exterior-2.jpg ✅
+- will-monday-house-detail.jpg ✅
 
 ### Still Needed
-- battlecat-coffee-bar-exterior.jpg
-- battlecat-coffee-bar-interior.jpg
-- bad-manners-coffee-exterior.jpg
-- bad-manners-coffee-interior.jpg
-- rowan-coffee-exterior.jpg
-- rowan-coffee-interior.jpg
-- odds-cafe-exterior.jpg
-- odds-cafe-interior.jpg
-- plant-bar-exterior.jpg
-- plant-bar-interior.jpg
-- izzys-coffee-house-exterior.jpg
-- izzys-coffee-house-interior.jpg
-- west-end-bakery-exterior.jpg
-- west-end-bakery-interior.jpg
-- haywood-famous-interior.jpg
+- snappy-lunch-exterior.jpg
+- snappy-lunch-interior.jpg
+- floyds-barber-exterior.jpg
+- floyds-barber-interior.jpg
+- opies-candy-exterior.jpg
+- opies-candy-interior.jpg
+- pages-books-exterior.jpg
+- pages-books-interior.jpg
+- barneys-cafe-exterior.jpg
+- barneys-cafe-interior.jpg
+- andy-griffith-museum-exterior.jpg
+- andy-griffith-museum-interior.jpg
+- angry-troll-exterior.jpg
+- angry-troll-interior.jpg

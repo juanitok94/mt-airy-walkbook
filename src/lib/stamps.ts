@@ -2,7 +2,7 @@
 // localStorage wrapper for passport stamp state.
 // Stamps are stored as { [shopId]: ISO timestamp }.
 
-const STORAGE_KEY = 'haywood-hoppers-stamps'
+const STORAGE_KEY = 'mt-airy-walkbook-stamps'
 
 export type StampRecord = Record<string, string> // shopId → ISO date
 
