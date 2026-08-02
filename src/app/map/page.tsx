@@ -6,6 +6,7 @@ import Link from 'next/link'
 import shopsData from '@/data/shops.json'
 import layersData from '@/data/layers.json'
 import { getStamps, type StampRecord } from '@/lib/stamps'
+import { isRentalHours, type ShopHours, type WeekdayHours } from '@/types/shop'
 
 const shops = shopsData as any[]
 const layers = layersData as any[]
@@ -396,10 +397,25 @@ export default function MapPage() {
                 </button>
               </div>
 
-              {/* Today's hours */}
+              {/* Today's hours / check-in-out */}
               {(() => {
-                const todayKey = ['sun','mon','tue','wed','thu','fri','sat'][new Date().getDay()]
-                const todayHours = selectedShop.hours?.[todayKey]
+                const hours = selectedShop.hours as ShopHours | undefined
+                if (!hours) return null
+
+                if (isRentalHours(hours)) {
+                  return (
+                    <p className="font-mono text-sm mt-3">
+                      <span className="text-[#c8973a] font-bold">→ Check-In: </span>
+                      <span className="text-[#1a1208]">{hours.checkIn}</span>
+                      <span className="text-[#6b3f1e] opacity-50"> · </span>
+                      <span className="text-[#c8973a] font-bold">Check-Out: </span>
+                      <span className="text-[#1a1208]">{hours.checkOut}</span>
+                    </p>
+                  )
+                }
+
+                const todayKey = (['sun','mon','tue','wed','thu','fri','sat'][new Date().getDay()]) as keyof WeekdayHours
+                const todayHours = hours[todayKey]
                 const isClosed = todayHours?.toLowerCase() === 'closed'
                 return todayHours ? (
                   <p className="font-mono text-sm mt-3">

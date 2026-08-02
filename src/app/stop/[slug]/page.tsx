@@ -7,6 +7,7 @@ import shopsData from '@/data/shops.json'
 import triviaData from '@/data/trivia.json'
 import { getStamps, addStamp, isStamped as checkStamped, type StampRecord } from '@/lib/stamps'
 import ShopPhoto from '@/components/ShopPhoto'
+import { isRentalHours, type ShopHours } from '@/types/shop'
 
 const shops = shopsData as any[]
 const trivia = triviaData as any[]
@@ -70,11 +71,13 @@ export default function StopPage({ params }: { params: Promise<{ slug: string }>
   }
 
   // Hours formatting
-  const dayOrder = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun']
+  const dayOrder = ['mon', 'tue', 'wed', 'thu', 'fri', 'sat', 'sun'] as const
   const dayLabels: Record<string, string> = {
     mon: 'Mon', tue: 'Tue', wed: 'Wed', thu: 'Thu',
     fri: 'Fri', sat: 'Sat', sun: 'Sun',
   }
+  const hours = shop.hours as ShopHours
+  const rental = isRentalHours(hours)
 
   const storyBody: string = shop.story.body ?? ''
   const storyPreview = storyBody.slice(0, 120)
@@ -226,42 +229,63 @@ export default function StopPage({ params }: { params: Promise<{ slug: string }>
         <div className="mt-6">
           <div className="flex items-center gap-3 mb-3">
             <p className="font-mono text-[10px] tracking-widest text-[#6b3f1e] opacity-60 uppercase">
-              Hours
+              {rental ? 'Check-In / Check-Out' : 'Hours'}
             </p>
             <div className="flex-1 border-t border-dashed border-[#6b3f1e] opacity-20" />
           </div>
 
-          <div className="flex flex-col gap-1">
-            {dayOrder.map(day => {
-              const val = shop.hours[day]
-              const closed = val?.toLowerCase() === 'closed'
-              const today = new Date().toLocaleDateString(
-                'en-US', { weekday: 'short' }
-              ).toLowerCase().slice(0, 3)
-              const isToday = today === day
-              return (
-                <div key={day} className={`flex justify-between items-center py-1.5 px-3 rounded-sm
-                  ${isToday ? 'bg-white/70 font-bold' : 'bg-white/30'}
-                `}>
-                  <span className={`font-mono text-xs uppercase
-                    ${isToday ? 'text-[#3b1f0a]' : 'text-[#6b3f1e] opacity-60'}
+          {rental ? (
+            <div className="flex flex-col gap-1">
+              <div className="flex justify-between items-center py-1.5 px-3 rounded-sm bg-white/30">
+                <span className="font-mono text-xs uppercase text-[#6b3f1e] opacity-60">
+                  Check-In
+                </span>
+                <span className="font-mono text-xs text-[#3b1f0a] opacity-80">
+                  {hours.checkIn}
+                </span>
+              </div>
+              <div className="flex justify-between items-center py-1.5 px-3 rounded-sm bg-white/30">
+                <span className="font-mono text-xs uppercase text-[#6b3f1e] opacity-60">
+                  Check-Out
+                </span>
+                <span className="font-mono text-xs text-[#3b1f0a] opacity-80">
+                  {hours.checkOut}
+                </span>
+              </div>
+            </div>
+          ) : (
+            <div className="flex flex-col gap-1">
+              {dayOrder.map(day => {
+                const val = hours[day]
+                const closed = val?.toLowerCase() === 'closed'
+                const today = new Date().toLocaleDateString(
+                  'en-US', { weekday: 'short' }
+                ).toLowerCase().slice(0, 3)
+                const isToday = today === day
+                return (
+                  <div key={day} className={`flex justify-between items-center py-1.5 px-3 rounded-sm
+                    ${isToday ? 'bg-white/70 font-bold' : 'bg-white/30'}
                   `}>
-                    {isToday ? '→ ' : ''}{dayLabels[day]}
-                  </span>
-                  <span className={`font-mono text-xs
-                    ${closed ? 'text-[#b84c1a] opacity-60' :
-                      isToday ? 'text-[#3b1f0a]' : 'text-[#3b1f0a] opacity-80'}
-                  `}>
-                    {closed ? 'Closed' : val}
-                  </span>
-                </div>
-              )
-            })}
-          </div>
+                    <span className={`font-mono text-xs uppercase
+                      ${isToday ? 'text-[#3b1f0a]' : 'text-[#6b3f1e] opacity-60'}
+                    `}>
+                      {isToday ? '→ ' : ''}{dayLabels[day]}
+                    </span>
+                    <span className={`font-mono text-xs
+                      ${closed ? 'text-[#b84c1a] opacity-60' :
+                        isToday ? 'text-[#3b1f0a]' : 'text-[#3b1f0a] opacity-80'}
+                    `}>
+                      {closed ? 'Closed' : val}
+                    </span>
+                  </div>
+                )
+              })}
+            </div>
+          )}
 
-          {shop.hours.note && (
+          {hours.note && (
             <p className="font-serif italic text-xs text-[#6b3f1e] opacity-60 mt-2">
-              {shop.hours.note}
+              {hours.note}
             </p>
           )}
         </div>

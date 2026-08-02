@@ -382,26 +382,21 @@
     "selloColor": "#B8893A",
     "hygge": true,
     "stamp": {
-      "welcomeLine": "Circa 1900. End of the line.",
+      "welcomeLine": "Circa 1920. End of the line.",
       "subLine": "Brick, granite, porch. This is where the walk ends."
     },
     "story": {
       "headline": "1023 North Main",
-      "body": "Will Monday built this Craftsman bungalow around 1900. The granite retaining wall along the sidewalk is Mount Airy stone — the same granite this town has been cutting since the 1880s. The porch looks south down N Main toward the historic district. The house has been carefully restored and is currently available as a short-term rental, long-term rental, or private residence.",
-      "insiderTip": "View from the sidewalk only. Please respect the property and neighbors."
+      "body": "Will Monday built this Craftsman bungalow circa 1920. The granite retaining wall along the sidewalk is Mount Airy stone — the same granite this town has been cutting since the 1880s. The porch looks south down N Main toward the historic district. The house has been carefully restored and now runs as a short-term rental — the last stop on the walk is also the only one you can spend the night in.",
+      "insiderTip": "Book a night through Airbnb and the porch is yours. This one's run by the same person who built this walk."
     },
     "hours": {
-      "mon": "closed",
-      "tue": "closed",
-      "wed": "closed",
-      "thu": "closed",
-      "fri": "closed",
-      "sat": "closed",
-      "sun": "closed",
-      "note": "Private residence. View from the sidewalk only. Not open to the public."
+      "checkIn": "3:00 PM",
+      "checkOut": "12:00 PM",
+      "note": "Short-term rental — book directly through Airbnb. Check-in and check-out are set by the reservation, not daily hours."
     },
     "instagram": null,
-    "website": null,
+    "website": "https://www.airbnb.com/rooms/1722596583258145279",
     "placeId": null,
     "photos": [
       "will-monday-house-exterior.jpg",
