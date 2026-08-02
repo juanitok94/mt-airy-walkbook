@@ -33,11 +33,17 @@ Theme: granite, Mayberry, and the town's music heritage —
    it's wrong. It should feel like Mount Airy.
 
 ## Color System — Do Not Change
-- Parchment background: #f5edd8
-- Espresso dark: #3b1f0a
-- Gold accent: #c8973a
-- Rust primary: #6b3f1e
-- Body text: #1a1208
+Source of truth: src/app/globals.css (`:root` custom properties).
+- Parchment background — --color-parchment: #FAF6F0
+- Espresso dark — --color-espresso: #2A1810
+- Gold accent — --color-gold: #B8893A
+- Rust primary — --color-rust: #8B3A2E
+- Ink (body text) — --color-ink: #1F1A14
+- Sage — --color-sage: #3F5E3A — used as the lodging layer color
+  (layers.json) and The Balladeer Hotel's badge/sello color
+  (badges.json "regular" tier, shops.json selloColor)
+- Stone — --color-stone: #A89F94 — defined but not currently
+  referenced elsewhere in the codebase
 
 ## Typography — Do Not Change
 - Playfair Display — headings (font-serif)
