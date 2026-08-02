@@ -40,8 +40,8 @@ Source of truth: src/app/globals.css (`:root` custom properties).
 - Rust primary — --color-rust: #8B3A2E
 - Ink (body text) — --color-ink: #1F1A14
 - Sage — --color-sage: #3F5E3A — used as the lodging layer color
-  (layers.json) and The Balladeer Hotel's badge/sello color
-  (badges.json "regular" tier, shops.json selloColor)
+  (layers.json) and The Balladeer Hotel's sello color
+  (shops.json selloColor)
 - Stone — --color-stone: #A89F94 — defined but not currently
   referenced elsewhere in the codebase
 
@@ -115,7 +115,6 @@ src/
   data/
     shops.json        — canonical data, source of truth
     layers.json        — map filter layers
-    badges.json        — achievement badges
     trivia.json        — trivia questions per stop
   lib/
     stamps.ts         — localStorage stamp logic
@@ -150,6 +149,9 @@ src/
 - ✅ Kate's Cocktail Lounge added as Stop 7 (11 core stops total);
   all hardcoded "10 stops" references converted to derive from
   shops.json's actual core-stop count instead
+- ✅ Badge system removed entirely (badges.json deleted, no tiers/
+  thresholds). The passport page's full-completion moment ("True
+  Local") is independent of badges and still fires at 11/11 stamps.
 - ⬜ Photo library — zero real shop photos exist on disk yet
 - ⬜ _todo fields in shops.json — hours, ownership, and detail
   fact-checking still needed for most stops
@@ -163,14 +165,6 @@ src/
   project's east-west road layout and haven't been re-mapped
   to N Main Street's actual cross streets. Needs real Mount
   Airy street data before fixing — don't guess coordinates.
-- badges.json thresholds (1/4/7/10) and the "complete" badge's
-  description ("...All ten.") still target the old 10-stop count.
-  With Kate's Cocktail Lounge added, the walk is now 11 stops, so
-  the "complete" badge now fires one stop early (at 10/11) and its
-  copy is inaccurate. Left untouched deliberately — rescaling these
-  requires a human decision on whether to bump the top threshold to
-  11 or leave it as an earlier "you basically made it" milestone.
-  Confirm with John before touching badges.json.
 
 ## Photo Library
 Photos location: public/images/shops/

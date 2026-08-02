@@ -11,7 +11,7 @@ A warmly narrated walking guide and passport game built on the
 Camino de Santiago pilgrim passport model. Collect stamps at each
 of the 11 core stops along N Main Street, from Snappy Lunch's
 pork chop counter to the granite porch of the Will Monday House.
-Earn your True Local badge.
+Walk them all and become a True Local.
 
 Built on granite, rewritten in brick, remembered in song.
 
@@ -37,7 +37,6 @@ Open http://localhost:3000
 All business data lives in /src/data/
 - shops.json — 11 stops, 8 layers, full data model
 - layers.json — layer definitions
-- badges.json — badge tiers
 - trivia.json — per-stop trivia
 
 Community corrections welcome via PR to the JSON files.

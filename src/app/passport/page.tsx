@@ -4,11 +4,9 @@
 import { useState, useEffect, useCallback } from 'react'
 import Link from 'next/link'
 import shopsData from '@/data/shops.json'
-import badgesData from '@/data/badges.json'
 import { getStamps, type StampRecord } from '@/lib/stamps'
 
 const shops = shopsData as any[]
-const badges = badgesData as any[]
 
 const coreStops = shops
   .filter(s => s.passportType === 'core')
@@ -37,16 +35,6 @@ export default function PassportPage() {
 
   const coreStamped = coreStops.filter(s => stamps[s.id]).length
   const progress = Math.round((coreStamped / totalCoreStops) * 100)
-
-  // Earned badges (core type only on this page)
-  const earnedBadges = badges.filter(
-    b => b.type === 'core' && coreStamped >= b.threshold
-  )
-
-  // Next badge
-  const nextBadge = badges
-    .filter(b => b.type === 'core' && coreStamped < b.threshold)
-    .sort((a, b) => a.threshold - b.threshold)[0]
 
   return (
     <main className="min-h-screen bg-[#f5edd8] text-[#1a1208]">
@@ -91,33 +79,6 @@ export default function PassportPage() {
           />
         </div>
       </div>
-
-      {/* EARNED BADGES */}
-      {earnedBadges.length > 0 && (
-        <div className="max-w-lg mx-auto px-6 pt-5">
-          <div className="flex flex-wrap gap-2">
-            {earnedBadges.map(b => (
-              <div
-                key={b.id}
-                className="flex items-center gap-1.5 px-3 py-1.5 rounded-sm text-white text-xs font-mono"
-                style={{ backgroundColor: b.color }}
-              >
-                <span>{b.icon}</span>
-                <span>{b.label}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-      )}
-
-      {/* NEXT BADGE HINT */}
-      {nextBadge && (
-        <div className="max-w-lg mx-auto px-6 pt-3">
-          <p className="font-serif text-sm italic text-[#6b3f1e] opacity-70">
-            {nextBadge.threshold - coreStamped} more stamp{nextBadge.threshold - coreStamped !== 1 ? 's' : ''} to earn "{nextBadge.label}"
-          </p>
-        </div>
-      )}
 
       {/* STAMP GRID */}
       <div className="max-w-lg mx-auto px-6 py-6">
