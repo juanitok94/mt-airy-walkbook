@@ -37,21 +37,21 @@ export default function PassportPage() {
   const progress = Math.round((coreStamped / totalCoreStops) * 100)
 
   return (
-    <main className="min-h-screen bg-[#f5edd8] text-[#1a1208]">
+    <main className="min-h-screen bg-[var(--color-parchment)] text-[var(--color-ink)]">
 
       {/* HEADER */}
-      <div className="bg-[#3b1f0a] px-6 py-8 text-center border-b-4 border-[#c8973a]">
+      <div className="bg-[var(--color-espresso)] px-6 py-8 text-center border-b-4 border-[var(--color-gold)]">
         <Link
           href="/"
-          className="font-mono text-[10px] tracking-widest text-[#c8973a] opacity-60
+          className="font-mono text-[10px] tracking-widest text-[var(--color-gold)] opacity-60
                      hover:opacity-100 transition-opacity uppercase"
         >
           ← Mount Airy Walkbook
         </Link>
-        <h1 className="font-serif text-3xl font-black text-[#f5edd8] mt-3">
+        <h1 className="font-serif text-3xl font-black text-[var(--color-parchment)] mt-3">
           Your Passport
         </h1>
-        <p className="text-[#e8d9b8] text-sm italic mt-1 opacity-70">
+        <p className="text-[var(--color-parchment)] text-sm italic mt-1 opacity-70">
           {coreStamped === 0 && 'No stamps yet. Time to walk.'}
           {coreStamped > 0 && coreStamped < totalCoreStops &&
             `${coreStamped} of ${totalCoreStops} stamps collected`}
@@ -62,19 +62,19 @@ export default function PassportPage() {
       {/* PROGRESS BAR */}
       <div className="max-w-lg mx-auto px-6 pt-6">
         <div className="flex items-center justify-between mb-2">
-          <span className="font-mono text-[10px] tracking-widest text-[#6b3f1e] uppercase">
+          <span className="font-mono text-[10px] tracking-widest text-[var(--color-rust)] uppercase">
             Progress
           </span>
-          <span className="font-mono text-xs text-[#6b3f1e] font-bold">
+          <span className="font-mono text-xs text-[var(--color-rust)] font-bold">
             {coreStamped}/{totalCoreStops}
           </span>
         </div>
-        <div className="w-full h-3 bg-[#e8d9b8] rounded-full overflow-hidden border border-[#6b3f1e]/20">
+        <div className="w-full h-3 bg-[var(--color-parchment)] rounded-full overflow-hidden border border-[var(--color-rust)]/20">
           <div
             className="h-full rounded-full transition-all duration-700 ease-out"
             style={{
               width: mounted ? `${progress}%` : '0%',
-              backgroundColor: coreStamped === totalCoreStops ? '#c8973a' : '#6b3f1e',
+              backgroundColor: coreStamped === totalCoreStops ? 'var(--color-gold)' : 'var(--color-rust)',
             }}
           />
         </div>
@@ -85,10 +85,10 @@ export default function PassportPage() {
 
         {/* North section */}
         <div className="flex items-center gap-3 mb-4">
-          <p className="font-mono text-[10px] tracking-widest text-[#6b3f1e] opacity-60 uppercase whitespace-nowrap">
+          <p className="font-mono text-[10px] tracking-widest text-[var(--color-rust)] opacity-60 uppercase whitespace-nowrap">
             Mayberry Core
           </p>
-          <div className="flex-1 border-t border-dashed border-[#6b3f1e] opacity-30" />
+          <div className="flex-1 border-t border-dashed border-[var(--color-rust)] opacity-30" />
         </div>
 
         <div className="grid grid-cols-2 gap-3 mb-4">
@@ -105,19 +105,19 @@ export default function PassportPage() {
 
         {/* I-240 divider */}
         <div className="flex items-center gap-3 my-5">
-          <div className="flex-1 h-px bg-[#b84c1a] opacity-40" />
-          <span className="font-mono text-[10px] text-[#b84c1a] tracking-widest px-2">
+          <div className="flex-1 h-px bg-[var(--color-gold)] opacity-40" />
+          <span className="font-mono text-[10px] text-[var(--color-gold)] tracking-widest px-2">
             The Covered Bridge
           </span>
-          <div className="flex-1 h-px bg-[#b84c1a] opacity-40" />
+          <div className="flex-1 h-px bg-[var(--color-gold)] opacity-40" />
         </div>
 
         {/* South section */}
         <div className="flex items-center gap-3 mb-4">
-          <p className="font-mono text-[10px] tracking-widest text-[#6b3f1e] opacity-60 uppercase whitespace-nowrap">
+          <p className="font-mono text-[10px] tracking-widest text-[var(--color-rust)] opacity-60 uppercase whitespace-nowrap">
             The Second Life
           </p>
-          <div className="flex-1 border-t border-dashed border-[#6b3f1e] opacity-30" />
+          <div className="flex-1 border-t border-dashed border-[var(--color-rust)] opacity-30" />
         </div>
 
         <div className="grid grid-cols-2 gap-3">
@@ -136,18 +136,18 @@ export default function PassportPage() {
       {/* COMPOSTELA — full-completion message */}
       {coreStamped === totalCoreStops && (
         <div className="max-w-lg mx-auto px-6 pb-8">
-          <div className="p-6 bg-[#3b1f0a] border-2 border-[#c8973a] rounded-sm text-center">
+          <div className="p-6 bg-[var(--color-espresso)] border-2 border-[var(--color-gold)] rounded-sm text-center">
             <p className="text-3xl mb-2">⭐</p>
-            <p className="font-serif text-xl font-bold text-[#c8973a]">
+            <p className="font-serif text-xl font-bold text-[var(--color-gold)]">
               True Local
             </p>
-            <p className="font-serif italic text-sm text-[#e8d9b8] mt-2 leading-relaxed">
+            <p className="font-serif italic text-sm text-[var(--color-parchment)] mt-2 leading-relaxed">
               You walked all of Main Street. South to north.
               Past the barbershop and the brewery and the mill-turned-hotel,
               up through the granite neighborhood, to the porch on North Main.
               This walk is yours now.
             </p>
-            <p className="font-mono text-[10px] text-[#c8973a] opacity-50 mt-4 tracking-widest">
+            <p className="font-mono text-[10px] text-[var(--color-gold)] opacity-50 mt-4 tracking-widest">
               #MtAiryWalkbook · #TrueLocal
             </p>
           </div>
@@ -155,15 +155,15 @@ export default function PassportPage() {
       )}
 
       {/* FOOTER */}
-      <div className="bg-[#3b1f0a] px-6 py-8 text-center border-t-2 border-[#c8973a]">
+      <div className="bg-[var(--color-espresso)] px-6 py-8 text-center border-t-2 border-[var(--color-gold)]">
         <Link
           href="/"
-          className="font-mono text-xs text-[#c8973a] opacity-60
+          className="font-mono text-xs text-[var(--color-gold)] opacity-60
                      hover:opacity-100 transition-opacity tracking-widest uppercase"
         >
           ← Back Home
         </Link>
-        <p className="font-serif italic text-[#e8d9b8] text-sm opacity-50 mt-4 leading-relaxed">
+        <p className="font-serif italic text-[var(--color-parchment)] text-sm opacity-50 mt-4 leading-relaxed">
           Stamps are saved on this device.
           <br />
           No account needed. No data leaves your phone.
@@ -202,13 +202,13 @@ function StampCard({
         relative flex flex-col items-center justify-center p-4 rounded-sm
         border text-center transition-all min-h-[140px] group
         ${stamped
-          ? 'bg-white/80 border-[#6b3f1e]/30 shadow-sm'
-          : 'bg-white/30 border-dashed border-[#6b3f1e]/20 hover:bg-white/50'
+          ? 'bg-white/80 border-[var(--color-rust)]/30 shadow-sm'
+          : 'bg-white/30 border-dashed border-[var(--color-rust)]/20 hover:bg-white/50'
         }
       `}
     >
       {/* Stop number */}
-      <span className="absolute top-2 left-2 font-mono text-[10px] text-[#6b3f1e] opacity-40">
+      <span className="absolute top-2 left-2 font-mono text-[10px] text-[var(--color-rust)] opacity-40">
         #{shop.passportStop}
       </span>
 
@@ -223,27 +223,27 @@ function StampCard({
           }
         `}
         style={{
-          backgroundColor: stamped ? shop.selloColor : '#d4c5a9',
-          border: stamped ? `2px solid ${shop.selloColor}` : '2px dashed #6b3f1e40',
+          backgroundColor: stamped ? shop.selloColor : 'var(--color-stone)',
+          border: stamped ? `2px solid ${shop.selloColor}` : '2px dashed color-mix(in srgb, var(--color-rust) 25%, transparent)',
         }}
       >
         {stamped ? (
           <span className="text-white text-lg">✓</span>
         ) : (
-          <span className="text-[#6b3f1e] opacity-30 text-lg">?</span>
+          <span className="text-[var(--color-rust)] opacity-30 text-lg">?</span>
         )}
       </div>
 
       {/* Shop name */}
       <p className={`
         font-serif text-xs font-bold leading-tight
-        ${stamped ? 'text-[#3b1f0a]' : 'text-[#6b3f1e] opacity-50'}
+        ${stamped ? 'text-[var(--color-espresso)]' : 'text-[var(--color-rust)] opacity-50'}
       `}>
         {shop.name}
       </p>
 
       {/* Date or prompt */}
-      <p className="font-mono text-[9px] mt-1 text-[#6b3f1e] opacity-50">
+      <p className="font-mono text-[9px] mt-1 text-[var(--color-rust)] opacity-50">
         {stamped ? formattedDate : 'Tap to visit →'}
       </p>
     </Link>

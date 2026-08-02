@@ -34,16 +34,35 @@ Theme: granite, Mayberry, and the town's music heritage —
 
 ## Color System — Do Not Change
 Source of truth: src/app/globals.css (`:root` custom properties).
-- Parchment background — --color-parchment: #FAF6F0
-- Espresso dark — --color-espresso: #2A1810
-- Gold accent — --color-gold: #B8893A
-- Rust primary — --color-rust: #8B3A2E
-- Ink (body text) — --color-ink: #1F1A14
-- Sage — --color-sage: #3F5E3A — used as the lodging layer color
-  (layers.json) and The Balladeer Hotel's sello color
-  (shops.json selloColor)
-- Stone — --color-stone: #A89F94 — defined but not currently
-  referenced elsewhere in the codebase
+Every component references these via `var(--color-x)` — there should
+be no hardcoded hex chrome colors anywhere in src/app or
+src/components. (Per-shop `selloColor` values in shops.json are a
+separate, intentionally-varied system — those stay as literal hex.)
+
+**Palette adopted from Naples (Old Naples Passport) on August 2,
+2026 — this is a deliberate rebrand decision, not drift. A future
+session should NOT "fix" these back toward the old brown/parchment
+Haywood-Hoppers-era values.**
+- Parchment background — --color-parchment: #f5f0e8
+- Espresso dark (primary/header bg, also body text) — --color-espresso: #0d1f3c
+- Gold accent — --color-gold: #c9a060
+- Rust (secondary/muted text & borders) — --color-rust: #1a3560
+- Ink (body text) — --color-ink: #0d1f3c — same value as espresso;
+  Naples doesn't distinguish a separate "ink" from its primary navy
+- Sage — --color-sage: #3F5E3A — not part of the Naples palette,
+  left unchanged. Used as the lodging layer color (layers.json), The
+  Balladeer Hotel's sello color (shops.json selloColor), and the
+  homepage's "Songbook Five" label accent
+- Stone — --color-stone: #A89F94 — not part of the Naples palette,
+  left unchanged. Used by src/components/ShopPhoto.tsx's placeholder
+  and the passport page's un-stamped stop-circle background
+
+**Open question, not decided here:** now that --color-espresso and
+--color-ink hold the identical navy value, and --color-rust holds a
+navy rather than a rust tone, these variable names no longer describe
+what they contain. Consider renaming to palette-neutral names
+(--color-primary, --color-accent, --color-secondary, --color-text)
+in a future pass — flagging this rather than renaming unilaterally.
 
 ## Typography — Do Not Change
 - Playfair Display — headings (font-serif)

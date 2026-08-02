@@ -50,3 +50,7 @@ Community corrections welcome via PR to the JSON files.
 ## Hashtags
 
 #MtAiryWalkbook #TrueLocal
+
+## Credits
+
+- **Hero image:** "First Baptist Church 714 North Main Street downtown Mount Airy NC" by UNC Libraries Commons, [CC0 1.0 Universal Public Domain Dedication](https://creativecommons.org/publicdomain/zero/1.0/), via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:First_Baptist_Church_714_North_Main_Street_downtown_Mount_Airy_NC.jpg).
