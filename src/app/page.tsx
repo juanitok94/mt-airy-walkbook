@@ -1,10 +1,16 @@
-import Image from 'next/image'
 import Link from 'next/link'
 import shopsData from '@/data/shops.json'
 import layersData from '@/data/layers.json'
+import HeroCarousel from '@/components/HeroCarousel'
 
 const shops = shopsData as any[]
 const layers = layersData as any[]
+
+const heroImages = [
+  { src: '/mount-airy-hero.jpg', alt: 'First Baptist Church, downtown Mount Airy, NC' },
+  { src: '/images/shops/balladeer-hotel-01.jpeg', alt: 'The Balladeer Hotel' },
+  { src: '/images/shops/will-monday-house-01.jpeg', alt: 'Will Monday House' },
+]
 
 const coreStops = shops
   .filter(s => s.passportType === 'core')
@@ -33,16 +39,7 @@ export default function Home() {
         <div className="flex items-center justify-center gap-3 mt-4 text-[var(--color-gold)] opacity-50 text-sm">
           <span>★</span><span>✦</span><span>★</span>
         </div>
-        <div className="mt-6 max-w-sm mx-auto overflow-hidden rounded-sm">
-          <Image
-            src="/mount-airy-hero.jpg"
-            alt="First Baptist Church, downtown Mount Airy, NC"
-            width={1200}
-            height={762}
-            className="w-full opacity-80"
-            priority
-          />
-        </div>
+        <HeroCarousel images={heroImages} />
       </div>
 
       {/* INTRO */}
@@ -172,6 +169,7 @@ export default function Home() {
             🕯 Hidden Collection
           </p>
           <p className="font-serif text-lg font-bold text-[var(--color-espresso)]">
+            The Songbook Five
           </p>
           <p className="font-serif italic text-sm text-[var(--color-rust)] mt-1 leading-relaxed">
             Five places where Mount Airy's story lives in the walls.
