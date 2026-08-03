@@ -236,10 +236,7 @@
     "instagram": null,
     "website": null,
     "placeId": null,
-    "photos": [
-      "thirsty-souls-interior.jpg",
-      "thirsty-souls-detail.jpg"
-    ],
+    "photos": [],
     "_todo": "Placeholder — verify Thirsty Souls hours, confirm Jan/Maria ownership details, add instagram/website"
   },
   {
@@ -320,10 +317,7 @@
     "website": null,
     "placeId": null,
     "photos": [
-      "balladeer-hotel-exterior.jpg",
-      "balladeer-hotel-interior.jpg",
-      "balladeer-hotel-interior-2.jpg",
-      "balladeer-hotel-interior-3.jpg"
+      "balladeer-hotel-01.jpeg"
     ]
   },
   {
@@ -479,9 +473,7 @@
     "website": "https://www.airbnb.com/rooms/1722596583258145279",
     "placeId": null,
     "photos": [
-      "will-monday-house-exterior.jpg",
-      "will-monday-house-exterior-2.jpg",
-      "will-monday-house-detail.jpg"
+      "will-monday-house-01.jpeg"
     ]
   }
 ]
